@@ -18,53 +18,201 @@
   </head>
   <body class="font-sans text-brand-black bg-brand-white">
     <script type="module" src="/src/main.js"></script>
-    <header class="flex items-center justify-between px-8 py-6">
-      <h1 class="ci">
-        <span class="ci-main">レタースペーシング</span>
-        <span class="ci-sub">タイポグラフィにおける文字間調整の考え方</span>
-      </h1>
+    <div class="all">
+      <header class="header-global flex items-center justify-between px-8 py-6">
+        <h1 class="ci">
+          <picture>
+            <!-- source srcset="image-large.webp" media="(min-width: 1024px)" type="image/webp" -->
+            <!-- source srcset="image-medium.webp" media="(min-width: 768px)" type="image/webp" -->
+            <img
+              src="/src/assets/ci.svg"
+              alt="レタースペーシング - タイポグラフィにおける文字間調整の考え方"
+              loading="lazy"
+              width="520"
+              height="104"
+            />
+          </picture>
+        </h1>
 
-      <h2 class="subtitle">WEBや印刷物のためのデザイン本！</h2>
+        <h2 class="subtitle">
+          <picture>
+            <!-- source srcset="image-large.webp" media="(min-width: 1024px)" type="image/webp" -->
+            <!-- source srcset="image-medium.webp" media="(min-width: 768px)" type="image/webp" -->
+            <img
+              src="/src/assets/badge-1-text.svg"
+              alt="WEBや印刷物のためのデザイン本！"
+              loading="lazy"
+              width="141"
+              height="91"
+            />
+          </picture>
+          <div class="bg-image"></div>
+        </h2>
 
-      <nav>
-        <ul class="flex gap-8">
-          <li><a href="/concept">コンセプト</a></li>
-          <li><a href="/feature">本書の特徴</a></li>
-          <li><a href="/contents">目次</a></li>
-          <li><a href="/author">著者について</a></li>
-        </ul>
-      </nav>
+        <nav class="nav-global">
+          <ul class="buy">
+            <li>
+              <a
+                class="amazon"
+                href="https://amzn.to/3gwTUFN"
+                target="_blank"
+                rel="noopener"
+                onclick="ga('send', 'event', 'nav', 'click', 'amazon')"
+                >Amazonで購入<svg
+                  width="10"
+                  height="11"
+                  viewBox="0 0 10 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.7651 3.20915C4.64283 3.25335 1.85904 3.58973 1.85904 6.0942C1.85904 8.78281 5.04611 8.8933 6.08773 7.15491C6.23752 7.40536 6.90351 8.07567 7.13165 8.30402L8.44058 6.92902C8.44058 6.92902 7.69624 6.30781 7.69624 5.63259V2.02076C7.69624 1.39955 7.13165 0 5.10833 0C3.0804 0 2.00422 1.35045 2.00422 2.56094L3.698 2.7279C4.07363 1.5125 4.94702 1.5125 4.94702 1.5125C5.88493 1.51004 5.7651 2.2442 5.7651 3.20915ZM5.7651 5.3404C5.7651 7.30469 3.82474 7.01004 3.82474 5.76272C3.82474 4.60379 4.9885 4.37054 5.7651 4.34353V5.3404ZM8.89917 9.35491C8.72173 9.60045 7.28605 11 4.87788 11C2.46972 11 0.626148 9.24442 0.0615541 8.52009C-0.0951495 8.33103 0.0845987 8.24263 0.1883 8.31629C1.87747 9.40893 4.51608 11.2087 8.77243 9.06027C8.94526 8.96942 9.07892 9.10938 8.89917 9.35491ZM9.81635 9.40893C9.66656 9.79688 9.44763 10.067 9.3278 10.1701C9.20106 10.2806 9.10888 10.2364 9.17801 10.0768C9.24715 9.91719 9.62277 8.93504 9.47068 8.72634C9.32089 8.52254 8.61803 8.62076 8.36454 8.64777C8.11565 8.67232 8.06496 8.69687 8.04191 8.6404C7.98891 8.50045 8.54198 8.25982 8.90609 8.21071C9.26789 8.16652 9.85092 8.19107 9.96614 8.35067C10.0514 8.47589 9.96614 9.01607 9.81635 9.40893Z"
+                    fill="black"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="bnn"
+                href="https://bnn.co.jp/products/9784802512091?_pos=1&_sid=aa145afc0&_ss=r"
+                target="_blank"
+                rel="noopener"
+                onclick="ga('send', 'event', 'nav', 'click', 'bnn')"
+                >BNNで購入<svg
+                  width="20"
+                  height="10"
+                  viewBox="0 0 39 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0)">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M21.2506 7.96215V4.59486C21.2506 4.06405 20.9264 3.88159 20.5212 3.74888V0.0830078H24.995V16.6541H21.2993L17.1821 8.85789V16.6707H13.1945V0.165946H17.2793L21.2506 7.96215Z"
+                      fill="black"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M35.2556 7.87915V4.52844C35.2556 3.99763 34.9314 3.81517 34.5262 3.68246V0H39V16.5711H35.3204L31.187 8.75829V16.5711H27.1995V0.0829384H31.2843L35.2556 7.87915Z"
+                      fill="black"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M3.82544 18.1636H4.71696C4.71696 18.1636 4.71696 19.192 4.71696 19.5072C4.71696 19.6565 4.86285 19.7228 4.9601 19.7228C5.1222 19.7228 5.28429 19.6067 5.28429 19.4906C5.28429 19.2252 5.28429 18.1636 5.28429 18.1636H6.09477V20.3366H5.28429V20.1209C5.07357 20.2702 4.9601 20.3366 4.47382 20.3366C4.11721 20.3366 3.82544 19.9385 3.82544 19.756C3.82544 19.192 3.82544 18.1636 3.82544 18.1636Z"
+                      fill="black"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M9.53116 17.4009H10.4389L11.3142 18.8108V17.4009H12.2219L12.2057 20.3203H11.3304L10.3416 18.8274V20.3203H9.53116V17.4009Z"
+                      fill="black"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M14.8965 18.2466H15.6422L15.9663 19.2584L16.2743 18.23L17.0037 18.2466L17.3441 19.2418L17.6683 18.2466H18.495L17.8304 20.32H16.9551L16.6633 19.3414L16.2905 20.32H15.4314L14.8965 18.2466Z"
+                      fill="black"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M20.0349 18.91C20.0349 18.7275 19.7755 18.6611 19.6297 18.6611C19.5324 18.6611 19.4514 18.7109 19.4514 18.827C19.4514 19.0758 19.9538 19.0924 20.1159 19.109C20.2618 19.1422 20.6833 19.3578 20.6833 19.6896C20.6833 20.1872 20.0835 20.4194 19.6459 20.4194C19.0623 20.4194 18.576 20.2204 18.576 19.673H19.2244C19.2244 19.7891 19.3865 19.9218 19.5162 19.9218C19.6783 19.9218 19.808 19.8886 19.808 19.7559C19.7918 19.4242 18.9489 19.6398 18.7057 19.1422C18.5761 18.8602 18.6733 18.4953 18.9164 18.3792C19.6783 17.9479 20.6184 18.2962 20.6184 18.9266L20.0349 18.91Z"
+                      fill="black"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M21.4127 17.5H22.3204L23.1958 18.8934L23.212 17.4834H24.1035V20.4028H23.212L22.2232 18.9099V20.4028H21.4127V17.5Z"
+                      fill="black"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M28.5125 18.396H29.2419L29.5823 19.4078L29.8903 18.3794L30.6197 18.396L30.9601 19.3912L31.2843 18.396H32.111L31.4464 20.4694H30.5711L30.2631 19.4742L29.9065 20.4694H29.0474L28.5125 18.396Z"
+                      fill="black"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M27.1022 18.4125V17.666H27.8317V18.4125H28.2369V18.8272H27.8317C27.8317 18.8272 27.8317 19.5902 27.8317 19.7892C27.8317 20.0546 28.01 20.1044 28.2369 20.0049V20.4196C28.091 20.4859 27.8803 20.5025 27.7344 20.5025C27.2319 20.5025 27.1022 20.2869 27.1022 19.839C27.1022 19.4243 27.1022 18.8437 27.1022 18.8437H26.7781V18.429H27.1022V18.4125Z"
+                      fill="black"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M36.3903 18.3296V18.9931C35.8554 18.9931 35.5798 19.1756 35.5798 19.3912C35.5798 19.8391 35.5798 20.486 35.5798 20.486H34.8504V18.4125H35.5798V18.6613C35.6446 18.4789 35.8878 18.3296 36.3903 18.3296Z"
+                      fill="black"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M36.7145 17.5H37.5249V18.91L38.1085 18.3294H38.8379L38.1895 19.1588L39 20.4858H38.1085L37.5249 19.5735V20.4858H36.7145V17.5Z"
+                      fill="black"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M10.5848 7.92856C11.0062 7.31482 11.5736 6.15368 11.5736 4.82667C11.5736 1.57548 9.19077 0.182115 7.39152 0.182115C7.05112 0.165527 0 0.165527 0 0.165527V3.40012C0.405237 3.53283 0.745636 3.71529 0.745636 4.2461V16.3883C0.745636 16.3883 7.8616 16.4049 8.07232 16.4049C9.53117 16.4049 12.0599 15.2603 12.0599 11.7271C12.0599 10.1015 11.2818 8.60866 10.5848 7.92856ZM5.05736 3.8314C5.05736 3.8314 6.09476 3.8314 6.19202 3.8314C6.8404 3.8314 7.42394 4.29586 7.42394 5.09207C7.42394 5.9878 6.93766 6.50202 6.19202 6.50202C5.99751 6.50202 5.05736 6.50202 5.05736 6.50202V3.8314ZM6.51621 12.9049C6.30549 12.9049 4.9601 12.9049 4.9601 12.9049V10.1513C4.9601 10.1513 6.30549 10.1513 6.41895 10.1513C7.45636 10.1513 7.89401 10.6158 7.89401 11.412C7.89401 12.3077 7.40773 12.9049 6.51621 12.9049Z"
+                      fill="black"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M3.17706 18.661C3.37157 18.5283 3.4202 18.3458 3.4202 18.1136C3.4202 17.5662 3.11222 17.3174 2.399 17.3174C2.35037 17.3174 0.826683 17.3174 0.826683 17.3174V20.2368C0.826683 20.2368 2.65835 20.2368 2.70698 20.2368C3.2581 20.2368 3.5985 20.0046 3.5985 19.3908C3.5985 19.1254 3.4202 18.8103 3.17706 18.661ZM1.70199 17.9975C1.70199 17.9975 2.30175 17.9975 2.31796 17.9975C2.41521 17.9975 2.52868 18.0804 2.52868 18.2131C2.52868 18.3624 2.44763 18.4288 2.31796 18.4288C2.28554 18.4288 1.70199 18.4288 1.70199 18.4288V17.9975ZM2.31796 19.5733C2.28554 19.5733 1.7182 19.5733 1.7182 19.5733V18.9927C1.7182 18.9927 2.26933 18.9927 2.30175 18.9927C2.65835 18.9927 2.70698 19.1586 2.70698 19.2913C2.69077 19.4406 2.65835 19.5733 2.31796 19.5733Z"
+                      fill="black"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M8.7207 18.1635H7.91023V18.2796C7.79676 18.1469 7.55362 18.0806 7.24564 18.0806C6.8404 18.0806 6.45137 18.3626 6.43517 19.2085C6.43517 19.9716 7.05113 20.1706 7.3429 20.1706C7.53741 20.1706 7.79676 20.1043 7.91023 20.0047C7.91023 20.0047 7.89402 20.1706 7.89402 20.3531C7.89402 20.436 7.74813 20.519 7.58604 20.519C7.48878 20.519 7.40773 20.4692 7.40773 20.3531H6.51621C6.51621 20.718 7.0025 21 7.61846 21.0166C8.15337 21.0332 8.7207 20.6682 8.7207 20.3531C8.7207 19.9716 8.7207 18.1635 8.7207 18.1635ZM7.56983 19.59C7.37531 19.59 7.22943 19.391 7.22943 19.1256C7.22943 18.8602 7.37531 18.6611 7.56983 18.6611C7.76434 18.6611 7.91023 18.8602 7.91023 19.1256C7.91023 19.3744 7.76434 19.59 7.56983 19.59Z"
+                      fill="black"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M13.6646 19.8223C13.4214 19.8223 13.2756 19.7394 13.2756 19.4076H14.8155C14.8155 18.8271 14.6534 18.1636 13.6484 18.1636C12.5786 18.1636 12.4651 18.8603 12.4651 19.2418C12.4651 19.9219 12.9676 20.3366 13.6484 20.32C14.086 20.32 14.7506 20.1707 14.7506 19.6565H14.0212C14.005 19.7228 13.8915 19.8223 13.6646 19.8223ZM13.6484 18.6612C13.8591 18.6612 13.9239 18.8105 13.9239 18.993H13.3566C13.3566 18.8105 13.4214 18.6612 13.6484 18.6612Z"
+                      fill="black"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M25.4813 19.9215C25.2382 19.9215 25.0923 19.8219 25.0923 19.5068H26.6322C26.6322 18.9262 26.4701 18.2627 25.4651 18.2627C24.3953 18.2627 24.2818 18.9428 24.2818 19.3409C24.2818 20.0376 24.7843 20.4357 25.4651 20.4357C25.9027 20.4357 26.5673 20.2864 26.5673 19.7722H25.8379C25.8379 19.8219 25.7082 19.9215 25.4813 19.9215ZM25.4651 18.7603C25.6758 18.7603 25.7407 18.9096 25.7407 19.0921H25.1733C25.1733 18.9096 25.2544 18.7603 25.4651 18.7603Z"
+                      fill="black"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M33.3267 18.313C32.6783 18.313 32.1434 18.8272 32.1434 19.4409C32.1434 20.0713 32.6783 20.5689 33.3267 20.5689C33.9751 20.5689 34.51 20.0547 34.51 19.4409C34.51 18.8272 33.9913 18.313 33.3267 18.313ZM33.3267 19.9883C33.0511 19.9883 32.9701 19.7395 32.9701 19.4409C32.9701 19.1424 33.0511 18.8936 33.3591 18.8936C33.6347 18.8936 33.7157 19.1424 33.7157 19.4409C33.6995 19.7395 33.6023 19.9883 33.3267 19.9883Z"
+                      fill="black"
+                    ></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0">
+                      <rect width="39" height="21" fill="white"></rect>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <ul class="index">
+            <li><a href="/concept">コンセプト</a></li>
+            <li><a href="/feature">本書の特徴</a></li>
+            <li><a href="/contents">目次</a></li>
+            <li><a href="/author">著者について</a></li>
+          </ul>
+        </nav>
 
-      <ul class="buy">
-        <li>
+        <div class="isbn">
           <a
-            class="amazon"
-            href="https://amzn.to/3gwTUFN"
+            href="https://bnn.co.jp/products/9784802512091?_pos=1&_sid=aa145afc0&_ss=r"
             target="_blank"
             rel="noopener"
-            onclick="ga('send', 'event', 'nav', 'click', 'amazon')"
-            >Amazonで購入<svg
-              width="10"
-              height="11"
-              viewBox="0 0 10 11"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M5.7651 3.20915C4.64283 3.25335 1.85904 3.58973 1.85904 6.0942C1.85904 8.78281 5.04611 8.8933 6.08773 7.15491C6.23752 7.40536 6.90351 8.07567 7.13165 8.30402L8.44058 6.92902C8.44058 6.92902 7.69624 6.30781 7.69624 5.63259V2.02076C7.69624 1.39955 7.13165 0 5.10833 0C3.0804 0 2.00422 1.35045 2.00422 2.56094L3.698 2.7279C4.07363 1.5125 4.94702 1.5125 4.94702 1.5125C5.88493 1.51004 5.7651 2.2442 5.7651 3.20915ZM5.7651 5.3404C5.7651 7.30469 3.82474 7.01004 3.82474 5.76272C3.82474 4.60379 4.9885 4.37054 5.7651 4.34353V5.3404ZM8.89917 9.35491C8.72173 9.60045 7.28605 11 4.87788 11C2.46972 11 0.626148 9.24442 0.0615541 8.52009C-0.0951495 8.33103 0.0845987 8.24263 0.1883 8.31629C1.87747 9.40893 4.51608 11.2087 8.77243 9.06027C8.94526 8.96942 9.07892 9.10938 8.89917 9.35491ZM9.81635 9.40893C9.66656 9.79688 9.44763 10.067 9.3278 10.1701C9.20106 10.2806 9.10888 10.2364 9.17801 10.0768C9.24715 9.91719 9.62277 8.93504 9.47068 8.72634C9.32089 8.52254 8.61803 8.62076 8.36454 8.64777C8.11565 8.67232 8.06496 8.69687 8.04191 8.6404C7.98891 8.50045 8.54198 8.25982 8.90609 8.21071C9.26789 8.16652 9.85092 8.19107 9.96614 8.35067C10.0514 8.47589 9.96614 9.01607 9.81635 9.40893Z"
-                fill="black"
-              ></path>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a
-            class="bnn"
-            href="https://bnn.thebase.in/items/46823717"
-            target="_blank"
-            rel="noopener"
-            onclick="ga('send', 'event', 'nav', 'click', 'bnn')"
-            >BNNで購入<svg
+            ><svg
               width="39"
               height="21"
               viewBox="0 0 39 21"
@@ -182,12 +330,803 @@
               </defs>
             </svg>
           </a>
-        </li>
-      </ul>
+          <p class="no">ISBN：978-4-8025-1209-1</p>
+          <p class="price">¥2,200+tax</p>
+        </div>
 
-      <div class="l-info">
-        <div class="info">
-          <div class="logo">
+        <dl class="share">
+          <dt>SNSでシェアする</dt>
+          <dd>
+            <a href="https://x.com/BNN_edit" target="_blank" rel="noopener"
+              ><svg
+                width="32"
+                height="17"
+                viewBox="0 0 20 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20 1.89387C19.2641 2.21504 18.4732 2.43251 17.6437 2.52973C18.4908 2.02997 19.1412 1.23858 19.4477 0.295243C18.6547 0.75827 17.7768 1.09456 16.8419 1.2753C16.0935 0.490391 15.0269 0 13.8469 0C11.5805 0 9.74359 1.80818 9.74359 4.03907C9.74359 4.35591 9.78017 4.66412 9.84966 4.95936C6.43988 4.79085 3.41636 3.18286 1.39215 0.739547C1.03881 1.33579 0.8369 2.02997 0.8369 2.77024C0.8369 4.17157 1.56114 5.40798 2.66213 6.13241C1.98983 6.11153 1.35704 5.93006 0.803248 5.6269C0.803248 5.64346 0.803248 5.66074 0.803248 5.67802C0.803248 7.63527 2.21734 9.26774 4.09452 9.6386C3.74995 9.73077 3.38783 9.78046 3.01328 9.78046C2.74919 9.78046 2.49168 9.75525 2.24149 9.70773C2.76382 11.3121 4.27887 12.4801 6.07484 12.5125C4.67025 13.5956 2.90135 14.2415 0.978821 14.2415C0.647427 14.2415 0.321153 14.2221 0 14.1853C1.81572 15.331 3.97235 16 6.28992 16C13.8374 16 17.9641 9.84527 17.9641 4.50785C17.9641 4.33287 17.9604 4.1586 17.9524 3.98506C18.7542 3.41546 19.4499 2.70399 20 1.89387Z"
+                  fill="black"
+                ></path>
+              </svg>
+            </a>
+          </dd>
+          <dd>
+            <a
+              href="https://www.facebook.com/bnnincjp"
+              target="_blank"
+              rel="noopener"
+              ><svg
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18 9.055C18 4.05406 13.9706 0 9 0C4.02943 0 0 4.05406 0 9.055C0 13.5745 3.29115 17.3207 7.59375 18V11.6725H5.30859V9.055H7.59375V7.06007C7.59375 4.79066 8.93742 3.53711 10.9932 3.53711C11.9779 3.53711 13.0078 3.71397 13.0078 3.71397V5.94235H11.873C10.755 5.94235 10.4062 6.64039 10.4062 7.35648V9.055H12.9023L12.5033 11.6725H10.4062V18C14.7088 17.3207 18 13.5745 18 9.055Z"
+                  fill="black"
+                ></path>
+              </svg>
+            </a>
+          </dd>
+          <dd>
+            <a
+              href="https://social-plugins.line.me/lineit/share?url=https://letter-spacing.mimiguri.co.jp/"
+              target="_blank"
+              rel="noopener"
+              ><svg
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.9444 0H4.05563C1.81688 0 0 1.81687 0 4.05562V13.9387C0 16.1831 1.81688 18 4.05563 18H13.9388C16.1775 18 17.9944 16.1831 17.9944 13.9444V4.05562C18 1.81687 16.1831 0 13.9444 0ZM13.7138 11.1487C12.4538 12.6 9.64125 14.3606 9 14.6306C8.35875 14.9006 8.45438 14.4562 8.4825 14.3044C8.49938 14.2144 8.56688 13.7925 8.56688 13.7925C8.58938 13.6406 8.60625 13.3987 8.55 13.2525C8.4825 13.0837 8.21813 12.9994 8.02125 12.9544C5.13563 12.5719 3.00375 10.5581 3.00375 8.15062C3.00375 5.4675 5.69813 3.27937 9.00563 3.27937C12.3131 3.27937 15.0075 5.46187 15.0075 8.15062C15.0019 9.225 14.58 10.1925 13.7138 11.1487Z"
+                  fill="black"
+                ></path>
+                <path
+                  d="M13.0051 9.70293H11.3232C11.2613 9.70293 11.2107 9.6523 11.2107 9.59043V6.9748C11.2107 6.91293 11.2613 6.8623 11.3232 6.8623H13.0051C13.0669 6.8623 13.1176 6.91293 13.1176 6.9748V7.40231C13.1176 7.46418 13.0669 7.51481 13.0051 7.51481H11.8576V7.95918H13.0051C13.0669 7.95918 13.1176 8.0098 13.1176 8.07168V8.49918C13.1176 8.56106 13.0669 8.61168 13.0051 8.61168H11.8576V9.05605H13.0051C13.0669 9.05605 13.1176 9.10668 13.1176 9.16855V9.59606C13.1176 9.65231 13.0669 9.70293 13.0051 9.70293Z"
+                  fill="black"
+                ></path>
+                <path
+                  d="M6.76692 9.70318C6.82879 9.70318 6.87942 9.65255 6.87942 9.59068V9.16318C6.87942 9.1013 6.82879 9.05068 6.76692 9.05068H5.61942V6.96943C5.61942 6.90756 5.56879 6.85693 5.50692 6.85693H5.07942C5.01754 6.85693 4.96692 6.90756 4.96692 6.96943V9.58505C4.96692 9.64693 5.01754 9.69755 5.07942 9.69755H6.76692V9.70318Z"
+                  fill="black"
+                ></path>
+                <path
+                  d="M7.77943 6.85693H7.35194C7.29007 6.85693 7.23944 6.90756 7.23944 6.96943V9.59068C7.23944 9.65255 7.29007 9.70318 7.35194 9.70318H7.77943C7.84131 9.70318 7.89193 9.65255 7.89193 9.59068V6.96943C7.89756 6.90756 7.84693 6.85693 7.77943 6.85693Z"
+                  fill="black"
+                ></path>
+                <path
+                  d="M10.6763 6.85693H10.2488C10.1869 6.85693 10.1363 6.90756 10.1363 6.96943V8.52756L8.93818 6.90756C8.93818 6.90193 8.93255 6.90193 8.92693 6.89631L8.9213 6.89068L8.91568 6.88506C8.91568 6.88506 8.91568 6.88506 8.91005 6.88506L8.90443 6.87943C8.90443 6.87943 8.90443 6.87943 8.8988 6.87943C8.8988 6.87943 8.89318 6.87943 8.89318 6.87381C8.89318 6.87381 8.89318 6.87381 8.88755 6.87381C8.88755 6.87381 8.88193 6.87381 8.88193 6.86818C8.88193 6.86818 8.88193 6.86818 8.8763 6.86818H8.87068C8.87068 6.86818 8.87068 6.86818 8.86505 6.86818H8.85943H8.8538H8.84818H8.84255C8.84255 6.86818 8.84255 6.86818 8.83693 6.86818H8.41505C8.35318 6.86818 8.30255 6.91881 8.30255 6.98068V9.60194C8.30255 9.66382 8.35318 9.71444 8.41505 9.71444H8.84255C8.90443 9.71444 8.95505 9.66382 8.95505 9.60194V8.04944L10.1532 9.66944C10.1588 9.68069 10.1701 9.69194 10.1813 9.69757L10.1869 9.70319C10.1869 9.70319 10.1869 9.70319 10.1926 9.70319H10.1982H10.2038C10.2038 9.70319 10.2038 9.70319 10.2094 9.70319H10.2151C10.2263 9.70319 10.2319 9.70882 10.2432 9.70882H10.6651C10.7269 9.70882 10.7776 9.65819 10.7776 9.59632V6.97506C10.7944 6.90756 10.7438 6.85693 10.6763 6.85693Z"
+                  fill="black"
+                ></path>
+              </svg>
+            </a>
+          </dd>
+        </dl>
+      </header>
+
+      <div class="hero">
+        <img src="src/assets/kv.jpg" alt="" />
+      </div>
+
+      <main>
+        <section class="l-concept">
+          <div class="l-concept-main">
+            <h2 class="title">Concept</h2>
+            <div class="tab-content" id="pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="pills-base"
+                role="tabpanel"
+                aria-labelledby="pills-base-tab"
+                tabindex="0"
+              >
+                <svg
+                  width="467"
+                  height="158"
+                  viewBox="0 0 467 158"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <rect width="467" height="158" fill="url(#pattern0_7_8)" />
+                  <defs>
+                    <pattern
+                      id="pattern0_7_8"
+                      patternContentUnits="objectBoundingBox"
+                      width="1"
+                      height="1"
+                    >
+                      <use
+                        xlink:href="#image0_7_8"
+                        transform="scale(0.00214133 0.00632911)"
+                      />
+                    </pattern>
+                    <image
+                      id="image0_7_8"
+                      width="467"
+                      height="158"
+                      preserveAspectRatio="none"
+                      xlink:href="data:image/png;base64,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"
+                    />
+                  </defs>
+                </svg>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-arrange"
+                role="tabpanel"
+                aria-labelledby="pills-arrange-tab"
+                tabindex="0"
+              >
+                <picture>
+                  <!-- source srcset="image-large.webp" media="(min-width: 1024px)" type="image/webp" -->
+                  <!-- source srcset="image-medium.webp" media="(min-width: 768px)" type="image/webp" -->
+                  <img
+                    src="/src/assets/text-preview.png"
+                    alt="文字間ひとつで、ここまで変わる。"
+                    loading="lazy"
+                    width="467"
+                    height="158"
+                  />
+                </picture>
+              </div>
+            </div>
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="pills-base-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-base"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-base"
+                  aria-selected="true"
+                >
+                  Before
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-arrange-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-arrange"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-arrange"
+                  aria-selected="false"
+                >
+                  After
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="l-concept-sub">
+            <h3 class="copy">文字間調整の感覚を鍛える教科書。</h3>
+            <p class="text">
+              デザインの品質を大きく左右するにも関わらず、正解がなく、デザイナーを悩ませる「レタースペーシング（文字間調整・文字詰め）」。今まで感覚的に語られてきたレタースペーシングを、図と言葉と事例を用いて丁寧に解説した文字間調整の教科書。これからデザインを学ぶ学生の方や、自分のスペーシングを見直したいデザイナーの方に必須の一冊です。
+            </p>
+          </div>
+          <img
+            src="/src/assets/img_concept.png"
+            alt=""
+            class="image"
+            width="668"
+            height="209"
+          />
+        </section>
+
+        <div class="container-feature">
+          <section class="feature section-preview">
+            <div class="img js-modal container-modal" data-color="red">
+              <div class="preview-block">
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-preview red"
+                  data-bs-toggle="modal"
+                  data-bs-target="#previewModal-1"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <g clip-path="url(#clip0_9_93)">
+                      <mask
+                        id="mask0_9_93"
+                        style="mask-type: luminance"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <path d="M24 0H0V24H24V0Z" fill="white" />
+                      </mask>
+                      <g mask="url(#mask0_9_93)">
+                        <path
+                          d="M17.6389 14.6484C19.9686 10.9546 19.528 6.00933 16.3123 2.7937C12.5858 -0.932861 6.52014 -0.932861 2.79358 2.7937C-0.932984 6.52026 -0.932984 12.5859 2.79358 16.3125C6.00452 19.5234 10.9545 19.964 14.6483 17.639L21.0092 24L23.9998 21.0093L17.6389 14.6484ZM13.8983 13.8984C11.503 16.2937 7.60296 16.2937 5.20764 13.8984C2.81233 11.5031 2.81233 7.60308 5.20764 5.20776C7.60296 2.81245 11.503 2.81245 13.8983 5.20776C16.2983 7.60308 16.2983 11.5031 13.8983 13.8984Z"
+                          fill="white"
+                        />
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_9_93">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </button>
+                <img
+                  class="preview-thumbnail"
+                  src="/src/assets/img_preview_01.jpg"
+                  alt="1-1 レタースペーシングのプロセス"
+                  width="704"
+                  height="504"
+                  loading="lazy"
+                />
+              </div>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="previewModal-1"
+                tabindex="-1"
+                aria-labelledby="previewModalLabel-1"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                    <img
+                      class="preview-image"
+                      src="/src/assets/img_preview_01.jpg"
+                      alt="1-1 レタースペーシングのプロセス"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white btn-close-lg position-absolute top-0 end-0 m-3"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+            </div>
+            <div class="description">
+              <p class="label red"><span>第1部</span>基本を学ぶ</p>
+              <h2 class="title">レタースペーシングの<br />基礎知識や考え方</h2>
+              <p class="text">
+                レタースペーシングとは？なぜスペーシングが重要なのかを理解し、具体的にどのような視点で文字間を見えていけばいいのかを解説します。
+              </p>
+              <div class="illust">
+                <img
+                  src="src/assets/img_preview_illust_01.png"
+                  alt=""
+                  width="315"
+                  height="150"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </section>
+
+          <section class="feature section-preview">
+            <div class="img js-modal container-modal" data-color="green">
+              <div class="preview-block">
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-preview green"
+                  data-bs-toggle="modal"
+                  data-bs-target="#previewModal-2"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <g clip-path="url(#clip0_9_93)">
+                      <mask
+                        id="mask0_9_93"
+                        style="mask-type: luminance"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <path d="M24 0H0V24H24V0Z" fill="white" />
+                      </mask>
+                      <g mask="url(#mask0_9_93)">
+                        <path
+                          d="M17.6389 14.6484C19.9686 10.9546 19.528 6.00933 16.3123 2.7937C12.5858 -0.932861 6.52014 -0.932861 2.79358 2.7937C-0.932984 6.52026 -0.932984 12.5859 2.79358 16.3125C6.00452 19.5234 10.9545 19.964 14.6483 17.639L21.0092 24L23.9998 21.0093L17.6389 14.6484ZM13.8983 13.8984C11.503 16.2937 7.60296 16.2937 5.20764 13.8984C2.81233 11.5031 2.81233 7.60308 5.20764 5.20776C7.60296 2.81245 11.503 2.81245 13.8983 5.20776C16.2983 7.60308 16.2983 11.5031 13.8983 13.8984Z"
+                          fill="white"
+                        />
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_9_93">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </button>
+                <img
+                  class="preview-thumbnail"
+                  src="/src/assets/img_preview_02.jpg"
+                  alt="5-2 縦組みと横組みのひらがな"
+                  width="704"
+                  height="504"
+                  loading="lazy"
+                />
+              </div>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="previewModal-2"
+                tabindex="-1"
+                aria-labelledby="previewModalLabel-2"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                    <img
+                      class="preview-image"
+                      src="/src/assets/img_preview_02.jpg"
+                      alt="5-2 縦組みと横組みのひらがな"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white btn-close-lg position-absolute top-0 end-0 m-3"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+            </div>
+            <div class="description">
+              <p class="label green"><span>第2部</span>知識を深める</p>
+              <h2 class="title">欧文・和文・和欧混植<br />それぞれの特徴</h2>
+              <p class="text">
+                言語ごとのスペーシングに対する特徴が学べます。欧文の歴史、和文の横組、和文と欧文を混ぜたときの留意点などを解説します。
+              </p>
+              <div class="illust">
+                <img
+                  src="src/assets/img_preview_illust_02.png"
+                  alt=""
+                  width="315"
+                  height="135"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </section>
+
+          <section class="feature section-preview">
+            <div class="img js-modal container-modal" data-color="blue">
+              <div class="preview-block">
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-preview blue"
+                  data-bs-toggle="modal"
+                  data-bs-target="#previewModal-3"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <g clip-path="url(#clip0_9_93)">
+                      <mask
+                        id="mask0_9_93"
+                        style="mask-type: luminance"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <path d="M24 0H0V24H24V0Z" fill="white" />
+                      </mask>
+                      <g mask="url(#mask0_9_93)">
+                        <path
+                          d="M17.6389 14.6484C19.9686 10.9546 19.528 6.00933 16.3123 2.7937C12.5858 -0.932861 6.52014 -0.932861 2.79358 2.7937C-0.932984 6.52026 -0.932984 12.5859 2.79358 16.3125C6.00452 19.5234 10.9545 19.964 14.6483 17.639L21.0092 24L23.9998 21.0093L17.6389 14.6484ZM13.8983 13.8984C11.503 16.2937 7.60296 16.2937 5.20764 13.8984C2.81233 11.5031 2.81233 7.60308 5.20764 5.20776C7.60296 2.81245 11.503 2.81245 13.8983 5.20776C16.2983 7.60308 16.2983 11.5031 13.8983 13.8984Z"
+                          fill="white"
+                        />
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_9_93">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </button>
+                <img
+                  class="preview-thumbnail"
+                  src="/src/assets/img_preview_03.jpg"
+                  alt=""
+                  width="704"
+                  height="504"
+                  loading="lazy"
+                />
+              </div>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="previewModal-3"
+                tabindex="-1"
+                aria-labelledby="previewModalLabel-3"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                    <img
+                      class="preview-image"
+                      src="/src/assets/img_preview_03.jpg"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white btn-close-lg position-absolute top-0 end-0 m-3"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+            </div>
+            <div class="description">
+              <p class="label blue"><span>第3部</span>実感する</p>
+              <h2 class="title">
+                有名なロゴタイプの考察と<br />スペーシング練習問題
+              </h2>
+              <p class="text">
+                有名なロゴタイプのスペーシングを考察します。最後に練習問題を体験し、これまでに本書で学んだ知識を実践で振り返ります。
+              </p>
+              <div class="illust">
+                <img
+                  src="src/assets/img_preview_illust_03.png"
+                  alt=""
+                  width="315"
+                  height="126"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <section class="container-carousel">
+          <h2 class="title title-ruby">
+            知りたいところだけ<ruby
+              >サ<rt aria-hidden="true">・</rt>ク<rt aria-hidden="true">・</rt
+              >ッ<rt aria-hidden="true">・</rt>と<rt aria-hidden="true"
+                >・</rt
+              ></ruby
+            >読める見開き完結
+          </h2>
+          <div class="d-none d-lg-block">
+            <ul class="row">
+              <li class="col-4">
+                <img
+                  src="src/assets/img_carousel_page_01.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </li>
+              <li class="col-4">
+                <img
+                  src="src/assets/img_carousel_page_02.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </li>
+              <li class="col-4">
+                <img
+                  src="src/assets/img_carousel_page_03.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </li>
+            </ul>
+          </div>
+
+          <div
+            id="list-carousel"
+            class="carousel slide d-lg-none"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#list-carousel"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#list-carousel"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#list-carousel"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="src/assets/img_carousel_page_01.jpg"
+                  alt="1枚目の説明"
+                  class="d-block w-100"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="src/assets/img_carousel_page_02.jpg"
+                  alt="2枚目の説明"
+                  class="d-block w-100"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="src/assets/img_carousel_page_03.jpg"
+                  alt="3枚目の説明"
+                  class="d-block w-100"
+                />
+              </div>
+            </div>
+          </div>
+          <img
+            class="carousel-illust"
+            src="src/assets/img_carousel_01.svg"
+            alt=""
+            class="img-fluid illust"
+            width="70"
+            height="140"
+            loading="lazy"
+          />
+        </section>
+      </main>
+
+      <div class="container-fill container-cta">
+        <ul class="row justify-content-center">
+          <li class="col-4 btn">
+            <a
+              class="text-center amazon"
+              href="https://amzn.to/3gwTUFN"
+              target="_blank"
+              rel="noopener"
+              onclick="ga('send', 'event', 'cta', 'click', 'amazon')"
+            >
+              Amazonで購入</a
+            >
+          </li>
+          <li class="col-4 btn">
+            <a
+              class="text-center bnn"
+              href="https://bnn.thebase.in/items/46823717"
+              target="_blank"
+              rel="noopener"
+              onclick="ga('send', 'event', 'cta', 'click', 'bnn')"
+            >
+              BNNオンラインストアで購入</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="container container-xl container-index" id="index">
+        <h2 class="title">目次<span class="title-en">Index</span></h2>
+        <ul class="row row-cols-3 item">
+          <li class="col">
+            <h3 class="h">第1章 レタースペースとは何か？</h3>
+            <ul class="list">
+              <li><span>1-1</span>レタースペーシングのプロセス</li>
+              <li><span>1-2</span>レタースペースの正体</li>
+              <li><span>1-3</span>ワードスペースとの関係</li>
+              <li><span>1-4</span>スペースの種類と関係性</li>
+              <li class="column">
+                <span>Column 01</span>ワードスペースは存在しなかった？
+              </li>
+            </ul>
+          </li>
+          <li class="col">
+            <h3 class="h">第2章 スペーシングの基礎知識を学ぶ</h3>
+            <ul class="list">
+              <li><span>2-1</span>スペーシングの始めの一歩</li>
+              <li><span>2-2</span>文字の視覚的な中心を探す</li>
+              <li><span>2-3</span>文字の視覚的な端を探す</li>
+              <li><span>2-4</span>文字のパーソナルスペース</li>
+              <li><span>2-5</span>読み手の感覚差を知る</li>
+              <li><span>2-6</span>3文字スペーシング方法のまとめ</li>
+              <li><span>2-7</span>4文字以上の単語への発展</li>
+              <li><span>2-8</span>客観視のコツ</li>
+              <li class="column">
+                <span>Column 02</span>行頭揃えのコツをつかむ
+              </li>
+            </ul>
+          </li>
+          <li class="col">
+            <h3 class="h">第3章 スペーシングの観察眼を鍛える</h3>
+            <ul class="list">
+              <li><span>3-1</span>文字の形状を知る</li>
+              <li><span>3-2</span>文字列を「模様」として考える</li>
+              <li><span>3-3</span>同じ文字並びの扱い方</li>
+              <li><span>3-4</span>文字の上部と下部の違い</li>
+              <li><span>3-5</span>文字の量感・圧迫感を考慮する</li>
+              <li><span>3-6</span>ウェイトの変化による影響</li>
+              <li><span>3-7</span>文字サイズの違いによる影響</li>
+              <li><span>3-8</span>背景色の変化による影響</li>
+              <li><span>3-9</span>文字の周辺のスペースが与える影響</li>
+              <li><span>3-10</span>ゆったりさと窮屈さの特徴と違い</li>
+              <li class="column">
+                <span>Column 03</span>漢数字の「一」はどこまで詰める？
+              </li>
+            </ul>
+          </li>
+          <li class="col">
+            <h3 class="h">第4章 欧文のスペーシング</h3>
+            <ul class="list">
+              <li><span>4-1</span>大文字で意識すべきこと</li>
+              <li><span>4-2</span>小文字で意識すべきこと</li>
+              <li><span>4-3</span>書体のスタイルとスペースの関係</li>
+              <li><span>4-4</span>スクリプト体のスペーシング</li>
+              <li><span>4-5</span>いろいろな合字</li>
+              <li class="column">
+                <span>Column 04</span>ピリオドと句点のスペーシング
+              </li>
+            </ul>
+          </li>
+          <li class="col">
+            <h3 class="h">第5章 和文のスペーシング</h3>
+            <ul class="list">
+              <li><span>5-1</span>ひらがな活字の特徴</li>
+              <li><span>5-2</span>縦組みと横組みのひらがな</li>
+              <li><span>5-3</span>和文を読むときの感覚</li>
+              <li><span>5-4</span>和文特有の文字の高さ</li>
+              <li><span>5-5</span>和文独自の黒みのムラ</li>
+              <li><span>5-6</span>難しい和文横組みのスペーシング</li>
+              <li><span>5-7</span>和文がスカスカする原因</li>
+              <li><span>5-8</span>横組みを配慮したフォント</li>
+              <li><span>5-9</span>小書き文字のスペーシング</li>
+              <li><span>5-10</span>センテンスのスペーシング</li>
+              <li><span>5-11</span>縦組みのスペーシング</li>
+              <li class="column"><span>Column 05</span>括弧のスペーシング</li>
+            </ul>
+          </li>
+          <li class="col">
+            <h3 class="h">第6章 和欧混植のスペーシング</h3>
+            <ul class="list">
+              <li><span>6-1</span>和欧混植とは</li>
+              <li><span>6-2</span>最適な文字サイズとベースライン</li>
+              <li><span>6-3</span>既存フォントの観察</li>
+              <li><span>6-4</span>ワードスペースの影響</li>
+              <li><span>6-5</span>トラッキング時の注意点</li>
+              <li><span>6-6</span>文字の比率調整による効果</li>
+              <li class="column">
+                <span>Column 06</span>従属欧文（専用欧文）のはなし
+              </li>
+            </ul>
+          </li>
+          <li class="col">
+            <h3 class="h">第7章 実例から見るスペーシング</h3>
+            <ul class="list">
+              <li><span>7-1</span>COACHのロゴタイプ</li>
+              <li><span>7-2</span>BVLGARIのロゴタイプ</li>
+              <li><span>7-3</span>HIBIKIのロゴタイプ</li>
+              <li><span>7-4</span>MEVIUSのロゴタイプ</li>
+              <li><span>7-5</span>TORAYAのロゴタイプ</li>
+              <li><span>7-6</span>CHITAのロゴタイプ</li>
+              <li><span>7-7</span>キユーピーマヨネーズのロゴタイプ</li>
+              <li><span>7-8</span>明治おいしい牛乳のロゴタイプ</li>
+              <li class="column">
+                <span>Column 07</span>世の中のロゴタイプを考察しよう！
+              </li>
+            </ul>
+          </li>
+          <li class="col">
+            <h3 class="h">第8章 スペーシングの練習問題集</h3>
+            <ul class="list">
+              <li><span>8-1</span>図形のスペーシングに挑戦</li>
+              <li><span>8-2</span>欧文のスペーシングに挑戦</li>
+              <li><span>8-3</span>和文のスペーシングに挑戦</li>
+              <li><span>8-4</span>和欧混植のスペーシングに挑戦</li>
+              <li class="column">
+                <span>Column 08</span>便利なことはこわいこと
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="l-author" id="author">
+        <div class="inner">
+          <div class="title">
+            <h2 class="ja">著者について</h2>
+            <p class="en">About the author</p>
+          </div>
+          <div class="author">
+            <div class="name">今市達也<span>（いまいち・たつや）</span></div>
+            <div class="description">
+              グラフィックデザイナー/タイプデザイナー
+              東京造形大学造形学部デザイン学科グラフィックデザイン専攻領域卒業。新卒で株式会社DONGURIに入社。タイポグラフィを軸としたCIやグラフィックデザインを制作。2020年にフォント開発事業『katakata』を開始。ブランディングに向けたフォント開発を行う。主な受賞歴:日本タイポグラフィ年鑑入選など。<br />Twitter:
+              <a
+                href="https://twitter.com/ima_collection"
+                target="_blank"
+                rel="noopener"
+                >@ima_collection</a
+              >
+            </div>
+          </div>
+          <div class="publisher">
+            <div class="name">出版社情報</div>
+            <div class="description">
+              <a href="http://www.bnn.co.jp/" target="_blank" rel="noopener"
+                >http://www.bnn.co.jp/</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="l-author" id="author">
+        <div class="inner">
+          <div class="title">
+            <h2 class="ja">著者について</h2>
+            <p class="en">About the author</p>
+          </div>
+          <div class="author">
+            <div class="name">今市達也<span>（いまいち・たつや）</span></div>
+            <div class="description">
+              グラフィックデザイナー/タイプデザイナー
+              東京造形大学造形学部デザイン学科グラフィックデザイン専攻領域卒業。新卒で株式会社DONGURIに入社。タイポグラフィを軸としたCIやグラフィックデザインを制作。2020年にフォント開発事業『katakata』を開始。ブランディングに向けたフォント開発を行う。主な受賞歴:日本タイポグラフィ年鑑入選など。<br />Twitter:
+              <a
+                href="https://twitter.com/ima_collection"
+                target="_blank"
+                rel="noopener"
+                >@ima_collection</a
+              >
+            </div>
+          </div>
+          <div class="publisher">
+            <div class="name">出版社情報</div>
+            <div class="description">
+              <a href="http://www.bnn.co.jp/" target="_blank" rel="noopener"
+                >http://www.bnn.co.jp/</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="l-footer">
+        <div class="inner">
+          <div class="copyright">
             <a href="http://www.bnn.co.jp/" target="_blank" rel="noopener"
               ><svg
                 width="39"
@@ -305,745 +1244,105 @@
                     <rect width="39" height="21" fill="white"></rect>
                   </clipPath>
                 </defs>
-              </svg>
-            </a>
+              </svg> </a
+            ><span>© 2021 Tatsuya Imaichi</span>
           </div>
-          <p class="no">ISBN：978-4-8025-1209-1</p>
-          <p class="price">¥2,200+tax</p>
-        </div>
-        <dl class="share">
-          <dt>SNSでシェアする</dt>
-          <dd>
-            <a
-              href="https://twitter.com/intent/tweet?text=%E3%83%AC%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0+%E3%82%BF%E3%82%A4%E3%83%9D%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E6%96%87%E5%AD%97%E9%96%93%E8%AA%BF%E6%95%B4%E3%81%AE%E8%80%83%E3%81%88%E6%96%B9+https%3A%2F%2Fletter-spacing.mimiguri.co.jp%2F"
-              target="_blank"
-              rel="noopener"
-              ><svg
-                width="20"
-                height="16"
-                viewBox="0 0 20 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+          <dl class="share">
+            <dt>SNSでシェアする</dt>
+            <dd>
+              <a
+                href="https://twitter.com/intent/tweet?text=%E3%83%AC%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0+%E3%82%BF%E3%82%A4%E3%83%9D%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E6%96%87%E5%AD%97%E9%96%93%E8%AA%BF%E6%95%B4%E3%81%AE%E8%80%83%E3%81%88%E6%96%B9+https%3A%2F%2Fletter-spacing.mimiguri.co.jp%2F"
+                target="_blank"
+                rel="noopener"
+                ><svg
+                  width="20"
+                  height="16"
+                  viewBox="0 0 20 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20 1.89387C19.2641 2.21504 18.4732 2.43251 17.6437 2.52973C18.4908 2.02997 19.1412 1.23858 19.4477 0.295243C18.6547 0.75827 17.7768 1.09456 16.8419 1.2753C16.0935 0.490391 15.0269 0 13.8469 0C11.5805 0 9.74359 1.80818 9.74359 4.03907C9.74359 4.35591 9.78017 4.66412 9.84966 4.95936C6.43988 4.79085 3.41636 3.18286 1.39215 0.739547C1.03881 1.33579 0.8369 2.02997 0.8369 2.77024C0.8369 4.17157 1.56114 5.40798 2.66213 6.13241C1.98983 6.11153 1.35704 5.93006 0.803248 5.6269C0.803248 5.64346 0.803248 5.66074 0.803248 5.67802C0.803248 7.63527 2.21734 9.26774 4.09452 9.6386C3.74995 9.73077 3.38783 9.78046 3.01328 9.78046C2.74919 9.78046 2.49168 9.75525 2.24149 9.70773C2.76382 11.3121 4.27887 12.4801 6.07484 12.5125C4.67025 13.5956 2.90135 14.2415 0.978821 14.2415C0.647427 14.2415 0.321153 14.2221 0 14.1853C1.81572 15.331 3.97235 16 6.28992 16C13.8374 16 17.9641 9.84527 17.9641 4.50785C17.9641 4.33287 17.9604 4.1586 17.9524 3.98506C18.7542 3.41546 19.4499 2.70399 20 1.89387Z"
+                    fill="black"
+                  ></path>
+                </svg>
+              </a>
+            </dd>
+            <dd>
+              <a
+                href="https://www.facebook.com/sharer/sharer.php?u=https://letter-spacing.mimiguri.co.jp/"
+                target="_blank"
+                rel="noopener"
+                ><svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18 9.055C18 4.05406 13.9706 0 9 0C4.02943 0 0 4.05406 0 9.055C0 13.5745 3.29115 17.3207 7.59375 18V11.6725H5.30859V9.055H7.59375V7.06007C7.59375 4.79066 8.93742 3.53711 10.9932 3.53711C11.9779 3.53711 13.0078 3.71397 13.0078 3.71397V5.94235H11.873C10.755 5.94235 10.4062 6.64039 10.4062 7.35648V9.055H12.9023L12.5033 11.6725H10.4062V18C14.7088 17.3207 18 13.5745 18 9.055Z"
+                    fill="black"
+                  ></path>
+                </svg>
+              </a>
+            </dd>
+            <dd>
+              <a
+                href="https://social-plugins.line.me/lineit/share?url=https://letter-spacing.mimiguri.co.jp/"
+                target="_blank"
+                rel="noopener"
+                ><svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.9444 0H4.05563C1.81688 0 0 1.81687 0 4.05562V13.9387C0 16.1831 1.81688 18 4.05563 18H13.9388C16.1775 18 17.9944 16.1831 17.9944 13.9444V4.05562C18 1.81687 16.1831 0 13.9444 0ZM13.7138 11.1487C12.4538 12.6 9.64125 14.3606 9 14.6306C8.35875 14.9006 8.45438 14.4562 8.4825 14.3044C8.49938 14.2144 8.56688 13.7925 8.56688 13.7925C8.58938 13.6406 8.60625 13.3987 8.55 13.2525C8.4825 13.0837 8.21813 12.9994 8.02125 12.9544C5.13563 12.5719 3.00375 10.5581 3.00375 8.15062C3.00375 5.4675 5.69813 3.27937 9.00563 3.27937C12.3131 3.27937 15.0075 5.46187 15.0075 8.15062C15.0019 9.225 14.58 10.1925 13.7138 11.1487Z"
+                    fill="black"
+                  ></path>
+                  <path
+                    d="M13.0051 9.70293H11.3232C11.2613 9.70293 11.2107 9.6523 11.2107 9.59043V6.9748C11.2107 6.91293 11.2613 6.8623 11.3232 6.8623H13.0051C13.0669 6.8623 13.1176 6.91293 13.1176 6.9748V7.40231C13.1176 7.46418 13.0669 7.51481 13.0051 7.51481H11.8576V7.95918H13.0051C13.0669 7.95918 13.1176 8.0098 13.1176 8.07168V8.49918C13.1176 8.56106 13.0669 8.61168 13.0051 8.61168H11.8576V9.05605H13.0051C13.0669 9.05605 13.1176 9.10668 13.1176 9.16855V9.59606C13.1176 9.65231 13.0669 9.70293 13.0051 9.70293Z"
+                    fill="black"
+                  ></path>
+                  <path
+                    d="M6.76692 9.70318C6.82879 9.70318 6.87942 9.65255 6.87942 9.59068V9.16318C6.87942 9.1013 6.82879 9.05068 6.76692 9.05068H5.61942V6.96943C5.61942 6.90756 5.56879 6.85693 5.50692 6.85693H5.07942C5.01754 6.85693 4.96692 6.90756 4.96692 6.96943V9.58505C4.96692 9.64693 5.01754 9.69755 5.07942 9.69755H6.76692V9.70318Z"
+                    fill="black"
+                  ></path>
+                  <path
+                    d="M7.77943 6.85693H7.35194C7.29007 6.85693 7.23944 6.90756 7.23944 6.96943V9.59068C7.23944 9.65255 7.29007 9.70318 7.35194 9.70318H7.77943C7.84131 9.70318 7.89193 9.65255 7.89193 9.59068V6.96943C7.89756 6.90756 7.84693 6.85693 7.77943 6.85693Z"
+                    fill="black"
+                  ></path>
+                  <path
+                    d="M10.6763 6.85693H10.2488C10.1869 6.85693 10.1363 6.90756 10.1363 6.96943V8.52756L8.93818 6.90756C8.93818 6.90193 8.93255 6.90193 8.92693 6.89631L8.9213 6.89068L8.91568 6.88506C8.91568 6.88506 8.91568 6.88506 8.91005 6.88506L8.90443 6.87943C8.90443 6.87943 8.90443 6.87943 8.8988 6.87943C8.8988 6.87943 8.89318 6.87943 8.89318 6.87381C8.89318 6.87381 8.89318 6.87381 8.88755 6.87381C8.88755 6.87381 8.88193 6.87381 8.88193 6.86818C8.88193 6.86818 8.88193 6.86818 8.8763 6.86818H8.87068C8.87068 6.86818 8.87068 6.86818 8.86505 6.86818H8.85943H8.8538H8.84818H8.84255C8.84255 6.86818 8.84255 6.86818 8.83693 6.86818H8.41505C8.35318 6.86818 8.30255 6.91881 8.30255 6.98068V9.60194C8.30255 9.66382 8.35318 9.71444 8.41505 9.71444H8.84255C8.90443 9.71444 8.95505 9.66382 8.95505 9.60194V8.04944L10.1532 9.66944C10.1588 9.68069 10.1701 9.69194 10.1813 9.69757L10.1869 9.70319C10.1869 9.70319 10.1869 9.70319 10.1926 9.70319H10.1982H10.2038C10.2038 9.70319 10.2038 9.70319 10.2094 9.70319H10.2151C10.2263 9.70319 10.2319 9.70882 10.2432 9.70882H10.6651C10.7269 9.70882 10.7776 9.65819 10.7776 9.59632V6.97506C10.7944 6.90756 10.7438 6.85693 10.6763 6.85693Z"
+                    fill="black"
+                  ></path>
+                </svg>
+              </a>
+            </dd>
+          </dl>
+          <div class="contact">
+            <dt>お問い合わせはこちら</dt>
+            <dd>
+              <a
+                href="http://www.bnn.co.jp/contact-book/"
+                target="_blank"
+                rel="noopener"
+                >http://www.bnn.co.jp/contact-book/</a
               >
-                <path
-                  d="M20 1.89387C19.2641 2.21504 18.4732 2.43251 17.6437 2.52973C18.4908 2.02997 19.1412 1.23858 19.4477 0.295243C18.6547 0.75827 17.7768 1.09456 16.8419 1.2753C16.0935 0.490391 15.0269 0 13.8469 0C11.5805 0 9.74359 1.80818 9.74359 4.03907C9.74359 4.35591 9.78017 4.66412 9.84966 4.95936C6.43988 4.79085 3.41636 3.18286 1.39215 0.739547C1.03881 1.33579 0.8369 2.02997 0.8369 2.77024C0.8369 4.17157 1.56114 5.40798 2.66213 6.13241C1.98983 6.11153 1.35704 5.93006 0.803248 5.6269C0.803248 5.64346 0.803248 5.66074 0.803248 5.67802C0.803248 7.63527 2.21734 9.26774 4.09452 9.6386C3.74995 9.73077 3.38783 9.78046 3.01328 9.78046C2.74919 9.78046 2.49168 9.75525 2.24149 9.70773C2.76382 11.3121 4.27887 12.4801 6.07484 12.5125C4.67025 13.5956 2.90135 14.2415 0.978821 14.2415C0.647427 14.2415 0.321153 14.2221 0 14.1853C1.81572 15.331 3.97235 16 6.28992 16C13.8374 16 17.9641 9.84527 17.9641 4.50785C17.9641 4.33287 17.9604 4.1586 17.9524 3.98506C18.7542 3.41546 19.4499 2.70399 20 1.89387Z"
-                  fill="black"
-                ></path>
-              </svg>
-            </a>
-          </dd>
-          <dd>
-            <a
-              href="https://www.facebook.com/sharer/sharer.php?u=https://letter-spacing.mimiguri.co.jp/"
-              target="_blank"
-              rel="noopener"
-              ><svg
-                width="18"
-                height="18"
-                viewBox="0 0 18 18"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M18 9.055C18 4.05406 13.9706 0 9 0C4.02943 0 0 4.05406 0 9.055C0 13.5745 3.29115 17.3207 7.59375 18V11.6725H5.30859V9.055H7.59375V7.06007C7.59375 4.79066 8.93742 3.53711 10.9932 3.53711C11.9779 3.53711 13.0078 3.71397 13.0078 3.71397V5.94235H11.873C10.755 5.94235 10.4062 6.64039 10.4062 7.35648V9.055H12.9023L12.5033 11.6725H10.4062V18C14.7088 17.3207 18 13.5745 18 9.055Z"
-                  fill="black"
-                ></path>
-              </svg>
-            </a>
-          </dd>
-          <dd>
-            <a
-              href="https://social-plugins.line.me/lineit/share?url=https://letter-spacing.mimiguri.co.jp/"
-              target="_blank"
-              rel="noopener"
-              ><svg
-                width="18"
-                height="18"
-                viewBox="0 0 18 18"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M13.9444 0H4.05563C1.81688 0 0 1.81687 0 4.05562V13.9387C0 16.1831 1.81688 18 4.05563 18H13.9388C16.1775 18 17.9944 16.1831 17.9944 13.9444V4.05562C18 1.81687 16.1831 0 13.9444 0ZM13.7138 11.1487C12.4538 12.6 9.64125 14.3606 9 14.6306C8.35875 14.9006 8.45438 14.4562 8.4825 14.3044C8.49938 14.2144 8.56688 13.7925 8.56688 13.7925C8.58938 13.6406 8.60625 13.3987 8.55 13.2525C8.4825 13.0837 8.21813 12.9994 8.02125 12.9544C5.13563 12.5719 3.00375 10.5581 3.00375 8.15062C3.00375 5.4675 5.69813 3.27937 9.00563 3.27937C12.3131 3.27937 15.0075 5.46187 15.0075 8.15062C15.0019 9.225 14.58 10.1925 13.7138 11.1487Z"
-                  fill="black"
-                ></path>
-                <path
-                  d="M13.0051 9.70293H11.3232C11.2613 9.70293 11.2107 9.6523 11.2107 9.59043V6.9748C11.2107 6.91293 11.2613 6.8623 11.3232 6.8623H13.0051C13.0669 6.8623 13.1176 6.91293 13.1176 6.9748V7.40231C13.1176 7.46418 13.0669 7.51481 13.0051 7.51481H11.8576V7.95918H13.0051C13.0669 7.95918 13.1176 8.0098 13.1176 8.07168V8.49918C13.1176 8.56106 13.0669 8.61168 13.0051 8.61168H11.8576V9.05605H13.0051C13.0669 9.05605 13.1176 9.10668 13.1176 9.16855V9.59606C13.1176 9.65231 13.0669 9.70293 13.0051 9.70293Z"
-                  fill="black"
-                ></path>
-                <path
-                  d="M6.76692 9.70318C6.82879 9.70318 6.87942 9.65255 6.87942 9.59068V9.16318C6.87942 9.1013 6.82879 9.05068 6.76692 9.05068H5.61942V6.96943C5.61942 6.90756 5.56879 6.85693 5.50692 6.85693H5.07942C5.01754 6.85693 4.96692 6.90756 4.96692 6.96943V9.58505C4.96692 9.64693 5.01754 9.69755 5.07942 9.69755H6.76692V9.70318Z"
-                  fill="black"
-                ></path>
-                <path
-                  d="M7.77943 6.85693H7.35194C7.29007 6.85693 7.23944 6.90756 7.23944 6.96943V9.59068C7.23944 9.65255 7.29007 9.70318 7.35194 9.70318H7.77943C7.84131 9.70318 7.89193 9.65255 7.89193 9.59068V6.96943C7.89756 6.90756 7.84693 6.85693 7.77943 6.85693Z"
-                  fill="black"
-                ></path>
-                <path
-                  d="M10.6763 6.85693H10.2488C10.1869 6.85693 10.1363 6.90756 10.1363 6.96943V8.52756L8.93818 6.90756C8.93818 6.90193 8.93255 6.90193 8.92693 6.89631L8.9213 6.89068L8.91568 6.88506C8.91568 6.88506 8.91568 6.88506 8.91005 6.88506L8.90443 6.87943C8.90443 6.87943 8.90443 6.87943 8.8988 6.87943C8.8988 6.87943 8.89318 6.87943 8.89318 6.87381C8.89318 6.87381 8.89318 6.87381 8.88755 6.87381C8.88755 6.87381 8.88193 6.87381 8.88193 6.86818C8.88193 6.86818 8.88193 6.86818 8.8763 6.86818H8.87068C8.87068 6.86818 8.87068 6.86818 8.86505 6.86818H8.85943H8.8538H8.84818H8.84255C8.84255 6.86818 8.84255 6.86818 8.83693 6.86818H8.41505C8.35318 6.86818 8.30255 6.91881 8.30255 6.98068V9.60194C8.30255 9.66382 8.35318 9.71444 8.41505 9.71444H8.84255C8.90443 9.71444 8.95505 9.66382 8.95505 9.60194V8.04944L10.1532 9.66944C10.1588 9.68069 10.1701 9.69194 10.1813 9.69757L10.1869 9.70319C10.1869 9.70319 10.1869 9.70319 10.1926 9.70319H10.1982H10.2038C10.2038 9.70319 10.2038 9.70319 10.2094 9.70319H10.2151C10.2263 9.70319 10.2319 9.70882 10.2432 9.70882H10.6651C10.7269 9.70882 10.7776 9.65819 10.7776 9.59632V6.97506C10.7944 6.90756 10.7438 6.85693 10.6763 6.85693Z"
-                  fill="black"
-                ></path>
-              </svg>
-            </a>
-          </dd>
-        </dl>
-      </div>
-    </header>
-
-    <div class="hero">
-      <img src="src/assets/kv.jpg" alt="" />
-    </div>
-
-    <main>
-      <section>
-        <div class="l-concept">
-          <div class="title">
-            <p class="en">Concept</p>
-            <h2 class="ja is-animate is-animated">
-              <span class="d-block">文字間ひとつで、</span>
-              <span class="d-block">ここまで変わる。</span>
-            </h2>
-            <ul class="mode">
-              <li class="before">Before</li>
-              <li class="after is-active">After</li>
-            </ul>
-            <div class="img">
-              <img
-                src="src/assets/img_concept.png"
-                alt=""
-                width="614"
-                height="193"
-              />
-            </div>
-          </div>
-          <div class="description">
-            <h3 class="copy">文字間調整の感覚を鍛える教科書。</h3>
-            <p class="txt">
-              デザインの品質を大きく左右するにも関わらず、正解がなく、デザイナーを悩ませる「レタースペーシング（文字間調整・文字詰め）」。今まで感覚的に語られてきたレタースペーシングを、図と言葉と事例を用いて丁寧に解説した文字間調整の教科書。これからデザインを学ぶ学生の方や、自分のスペーシングを見直したいデザイナーの方に必須の一冊です。
-            </p>
+            </dd>
           </div>
         </div>
-      </section>
-
-      <section class="l-feature">
-        <div class="features">
-          <div class="feature">
-            <div class="img js-modal" data-color="red">
-              <img src="src/assets/img_feature_01.jpg" alt="" />
-            </div>
-            <div class="description">
-              <p class="label"><span>第1部</span>基本を学ぶ</p>
-              <h2 class="title">レタースペーシングの<br />基礎知識や考え方</h2>
-              <p class="txt">
-                レタースペーシングとは？なぜスペーシングが重要なのかを理解し、具体的にどのような視点で文字間を見えていけばいいのかを解説します。
-              </p>
-              <div class="illust">
-                <img src="src/assets/img_feature_illust_01.png" alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="feature">
-            <div class="img js-modal" data-color="green">
-              <img src="/assets/images/img_feature_02.jpg" alt="" />
-            </div>
-            <div class="description">
-              <p class="label"><span>第2部</span>知識を深める</p>
-              <h2 class="title">欧文・和文・和欧混植<br />それぞれの特徴</h2>
-              <p class="txt">
-                言語ごとのスペーシングに対する特徴が学べます。欧文の歴史、和文の横組、和文と欧文を混ぜたときの留意点などを解説します。
-              </p>
-              <div class="illust">
-                <img src="src/assets/img_feature_02.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="feature">
-            <div class="img js-modal" data-color="blue">
-              <img src="src/assets/img_feature_illust_02.png" alt="" />
-            </div>
-            <div class="description">
-              <p class="label"><span>第3部</span>実感する</p>
-              <h2 class="title">
-                有名なロゴタイプの考察と<br />スペーシング練習問題
-              </h2>
-              <p class="txt">
-                有名なロゴタイプのスペーシングを考察します。最後に練習問題を体験し、これまでに本書で学んだ知識を実践で振り返ります。
-              </p>
-              <div class="illust">
-                <img src="src/assets/img_feature_03.jpg" alt="" />
-              </div>
-              <div class="illust">
-                <img src="src/assets/img_feature_illust_03.png" alt="" />
-              </div>
-            </div>
-          </div>
+        <div class="img">
+          <img
+            src="sec/assets/img_footer.png"
+            alt=""
+            width="149"
+            height="167"
+          />
         </div>
-      </section>
-
-      <section class="description">
-        <p class="label"><span>第3部</span>実感する</p>
-        <h2 class="title">
-          有名なロゴタイプの考察と<br />スペーシング練習問題
-        </h2>
-        <p class="txt">
-          有名なロゴタイプのスペーシングを考察します。最後に練習問題を体験し、これまでに本書で学んだ知識を実践で振り返ります。
-        </p>
-        <div class="illust">
-          <img src="src/assets/img_feature_page_07.jpg" alt="" />
-        </div>
-      </section>
-    </main>
-
-    <div class="l-cta">
-      <div class="inner">
-        <div class="btn">
-          <a
-            class="amazon"
-            href="https://amzn.to/3gwTUFN"
-            target="_blank"
-            rel="noopener"
-            onclick="ga('send', 'event', 'cta', 'click', 'amazon')"
-            ><svg
-              width="10"
-              height="11"
-              viewBox="0 0 10 11"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M5.7651 3.20915C4.64283 3.25335 1.85904 3.58973 1.85904 6.0942C1.85904 8.78281 5.04611 8.8933 6.08773 7.15491C6.23752 7.40536 6.90351 8.07567 7.13165 8.30402L8.44058 6.92902C8.44058 6.92902 7.69624 6.30781 7.69624 5.63259V2.02076C7.69624 1.39955 7.13165 0 5.10833 0C3.0804 0 2.00422 1.35045 2.00422 2.56094L3.698 2.7279C4.07363 1.5125 4.94702 1.5125 4.94702 1.5125C5.88493 1.51004 5.7651 2.2442 5.7651 3.20915ZM5.7651 5.3404C5.7651 7.30469 3.82474 7.01004 3.82474 5.76272C3.82474 4.60379 4.9885 4.37054 5.7651 4.34353V5.3404ZM8.89917 9.35491C8.72173 9.60045 7.28605 11 4.87788 11C2.46972 11 0.626148 9.24442 0.0615541 8.52009C-0.0951495 8.33103 0.0845987 8.24263 0.1883 8.31629C1.87747 9.40893 4.51608 11.2087 8.77243 9.06027C8.94526 8.96942 9.07892 9.10938 8.89917 9.35491ZM9.81635 9.40893C9.66656 9.79688 9.44763 10.067 9.3278 10.1701C9.20106 10.2806 9.10888 10.2364 9.17801 10.0768C9.24715 9.91719 9.62277 8.93504 9.47068 8.72634C9.32089 8.52254 8.61803 8.62076 8.36454 8.64777C8.11565 8.67232 8.06496 8.69687 8.04191 8.6404C7.98891 8.50045 8.54198 8.25982 8.90609 8.21071C9.26789 8.16652 9.85092 8.19107 9.96614 8.35067C10.0514 8.47589 9.96614 9.01607 9.81635 9.40893Z"
-                fill="black"
-              ></path>
-            </svg>
-            Amazonで購入</a
-          >
-        </div>
-        <div class="btn">
-          <a
-            class="bnn"
-            href="https://bnn.thebase.in/items/46823717"
-            target="_blank"
-            rel="noopener"
-            onclick="ga('send', 'event', 'cta', 'click', 'bnn')"
-            ><svg
-              width="39"
-              height="21"
-              viewBox="0 0 39 21"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g clip-path="url(#clip0)">
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M21.2506 7.96215V4.59486C21.2506 4.06405 20.9264 3.88159 20.5212 3.74888V0.0830078H24.995V16.6541H21.2993L17.1821 8.85789V16.6707H13.1945V0.165946H17.2793L21.2506 7.96215Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M35.2556 7.87915V4.52844C35.2556 3.99763 34.9314 3.81517 34.5262 3.68246V0H39V16.5711H35.3204L31.187 8.75829V16.5711H27.1995V0.0829384H31.2843L35.2556 7.87915Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M3.82544 18.1636H4.71696C4.71696 18.1636 4.71696 19.192 4.71696 19.5072C4.71696 19.6565 4.86285 19.7228 4.9601 19.7228C5.1222 19.7228 5.28429 19.6067 5.28429 19.4906C5.28429 19.2252 5.28429 18.1636 5.28429 18.1636H6.09477V20.3366H5.28429V20.1209C5.07357 20.2702 4.9601 20.3366 4.47382 20.3366C4.11721 20.3366 3.82544 19.9385 3.82544 19.756C3.82544 19.192 3.82544 18.1636 3.82544 18.1636Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M9.53116 17.4009H10.4389L11.3142 18.8108V17.4009H12.2219L12.2057 20.3203H11.3304L10.3416 18.8274V20.3203H9.53116V17.4009Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M14.8965 18.2466H15.6422L15.9663 19.2584L16.2743 18.23L17.0037 18.2466L17.3441 19.2418L17.6683 18.2466H18.495L17.8304 20.32H16.9551L16.6633 19.3414L16.2905 20.32H15.4314L14.8965 18.2466Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M20.0349 18.91C20.0349 18.7275 19.7755 18.6611 19.6297 18.6611C19.5324 18.6611 19.4514 18.7109 19.4514 18.827C19.4514 19.0758 19.9538 19.0924 20.1159 19.109C20.2618 19.1422 20.6833 19.3578 20.6833 19.6896C20.6833 20.1872 20.0835 20.4194 19.6459 20.4194C19.0623 20.4194 18.576 20.2204 18.576 19.673H19.2244C19.2244 19.7891 19.3865 19.9218 19.5162 19.9218C19.6783 19.9218 19.808 19.8886 19.808 19.7559C19.7918 19.4242 18.9489 19.6398 18.7057 19.1422C18.5761 18.8602 18.6733 18.4953 18.9164 18.3792C19.6783 17.9479 20.6184 18.2962 20.6184 18.9266L20.0349 18.91Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M21.4127 17.5H22.3204L23.1958 18.8934L23.212 17.4834H24.1035V20.4028H23.212L22.2232 18.9099V20.4028H21.4127V17.5Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M28.5125 18.396H29.2419L29.5823 19.4078L29.8903 18.3794L30.6197 18.396L30.9601 19.3912L31.2843 18.396H32.111L31.4464 20.4694H30.5711L30.2631 19.4742L29.9065 20.4694H29.0474L28.5125 18.396Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M27.1022 18.4125V17.666H27.8317V18.4125H28.2369V18.8272H27.8317C27.8317 18.8272 27.8317 19.5902 27.8317 19.7892C27.8317 20.0546 28.01 20.1044 28.2369 20.0049V20.4196C28.091 20.4859 27.8803 20.5025 27.7344 20.5025C27.2319 20.5025 27.1022 20.2869 27.1022 19.839C27.1022 19.4243 27.1022 18.8437 27.1022 18.8437H26.7781V18.429H27.1022V18.4125Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M36.3903 18.3296V18.9931C35.8554 18.9931 35.5798 19.1756 35.5798 19.3912C35.5798 19.8391 35.5798 20.486 35.5798 20.486H34.8504V18.4125H35.5798V18.6613C35.6446 18.4789 35.8878 18.3296 36.3903 18.3296Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M36.7145 17.5H37.5249V18.91L38.1085 18.3294H38.8379L38.1895 19.1588L39 20.4858H38.1085L37.5249 19.5735V20.4858H36.7145V17.5Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M10.5848 7.92856C11.0062 7.31482 11.5736 6.15368 11.5736 4.82667C11.5736 1.57548 9.19077 0.182115 7.39152 0.182115C7.05112 0.165527 0 0.165527 0 0.165527V3.40012C0.405237 3.53283 0.745636 3.71529 0.745636 4.2461V16.3883C0.745636 16.3883 7.8616 16.4049 8.07232 16.4049C9.53117 16.4049 12.0599 15.2603 12.0599 11.7271C12.0599 10.1015 11.2818 8.60866 10.5848 7.92856ZM5.05736 3.8314C5.05736 3.8314 6.09476 3.8314 6.19202 3.8314C6.8404 3.8314 7.42394 4.29586 7.42394 5.09207C7.42394 5.9878 6.93766 6.50202 6.19202 6.50202C5.99751 6.50202 5.05736 6.50202 5.05736 6.50202V3.8314ZM6.51621 12.9049C6.30549 12.9049 4.9601 12.9049 4.9601 12.9049V10.1513C4.9601 10.1513 6.30549 10.1513 6.41895 10.1513C7.45636 10.1513 7.89401 10.6158 7.89401 11.412C7.89401 12.3077 7.40773 12.9049 6.51621 12.9049Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M3.17706 18.661C3.37157 18.5283 3.4202 18.3458 3.4202 18.1136C3.4202 17.5662 3.11222 17.3174 2.399 17.3174C2.35037 17.3174 0.826683 17.3174 0.826683 17.3174V20.2368C0.826683 20.2368 2.65835 20.2368 2.70698 20.2368C3.2581 20.2368 3.5985 20.0046 3.5985 19.3908C3.5985 19.1254 3.4202 18.8103 3.17706 18.661ZM1.70199 17.9975C1.70199 17.9975 2.30175 17.9975 2.31796 17.9975C2.41521 17.9975 2.52868 18.0804 2.52868 18.2131C2.52868 18.3624 2.44763 18.4288 2.31796 18.4288C2.28554 18.4288 1.70199 18.4288 1.70199 18.4288V17.9975ZM2.31796 19.5733C2.28554 19.5733 1.7182 19.5733 1.7182 19.5733V18.9927C1.7182 18.9927 2.26933 18.9927 2.30175 18.9927C2.65835 18.9927 2.70698 19.1586 2.70698 19.2913C2.69077 19.4406 2.65835 19.5733 2.31796 19.5733Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M8.7207 18.1635H7.91023V18.2796C7.79676 18.1469 7.55362 18.0806 7.24564 18.0806C6.8404 18.0806 6.45137 18.3626 6.43517 19.2085C6.43517 19.9716 7.05113 20.1706 7.3429 20.1706C7.53741 20.1706 7.79676 20.1043 7.91023 20.0047C7.91023 20.0047 7.89402 20.1706 7.89402 20.3531C7.89402 20.436 7.74813 20.519 7.58604 20.519C7.48878 20.519 7.40773 20.4692 7.40773 20.3531H6.51621C6.51621 20.718 7.0025 21 7.61846 21.0166C8.15337 21.0332 8.7207 20.6682 8.7207 20.3531C8.7207 19.9716 8.7207 18.1635 8.7207 18.1635ZM7.56983 19.59C7.37531 19.59 7.22943 19.391 7.22943 19.1256C7.22943 18.8602 7.37531 18.6611 7.56983 18.6611C7.76434 18.6611 7.91023 18.8602 7.91023 19.1256C7.91023 19.3744 7.76434 19.59 7.56983 19.59Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M13.6646 19.8223C13.4214 19.8223 13.2756 19.7394 13.2756 19.4076H14.8155C14.8155 18.8271 14.6534 18.1636 13.6484 18.1636C12.5786 18.1636 12.4651 18.8603 12.4651 19.2418C12.4651 19.9219 12.9676 20.3366 13.6484 20.32C14.086 20.32 14.7506 20.1707 14.7506 19.6565H14.0212C14.005 19.7228 13.8915 19.8223 13.6646 19.8223ZM13.6484 18.6612C13.8591 18.6612 13.9239 18.8105 13.9239 18.993H13.3566C13.3566 18.8105 13.4214 18.6612 13.6484 18.6612Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M25.4813 19.9215C25.2382 19.9215 25.0923 19.8219 25.0923 19.5068H26.6322C26.6322 18.9262 26.4701 18.2627 25.4651 18.2627C24.3953 18.2627 24.2818 18.9428 24.2818 19.3409C24.2818 20.0376 24.7843 20.4357 25.4651 20.4357C25.9027 20.4357 26.5673 20.2864 26.5673 19.7722H25.8379C25.8379 19.8219 25.7082 19.9215 25.4813 19.9215ZM25.4651 18.7603C25.6758 18.7603 25.7407 18.9096 25.7407 19.0921H25.1733C25.1733 18.9096 25.2544 18.7603 25.4651 18.7603Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M33.3267 18.313C32.6783 18.313 32.1434 18.8272 32.1434 19.4409C32.1434 20.0713 32.6783 20.5689 33.3267 20.5689C33.9751 20.5689 34.51 20.0547 34.51 19.4409C34.51 18.8272 33.9913 18.313 33.3267 18.313ZM33.3267 19.9883C33.0511 19.9883 32.9701 19.7395 32.9701 19.4409C32.9701 19.1424 33.0511 18.8936 33.3591 18.8936C33.6347 18.8936 33.7157 19.1424 33.7157 19.4409C33.6995 19.7395 33.6023 19.9883 33.3267 19.9883Z"
-                  fill="black"
-                ></path>
-              </g>
-              <defs>
-                <clipPath id="clip0">
-                  <rect width="39" height="21" fill="white"></rect>
-                </clipPath>
-              </defs>
-            </svg>
-            BNNオンラインストアで購入</a
-          >
-        </div>
-      </div>
-    </div>
-
-    <div class="l-index" id="index">
-      <div class="title">
-        <h2 class="ja">目次</h2>
-        <p class="en">Index</p>
-      </div>
-      <div class="items">
-        <div class="item">
-          <div class="h">第1章 レタースペースとは何か？</div>
-          <ul class="list">
-            <li><span>1-1</span>レタースペーシングのプロセス</li>
-            <li><span>1-2</span>レタースペースの正体</li>
-            <li><span>1-3</span>ワードスペースとの関係</li>
-            <li><span>1-4</span>スペースの種類と関係性</li>
-            <li class="column">
-              <span>Column 01</span>ワードスペースは存在しなかった？
-            </li>
-          </ul>
-        </div>
-        <div class="item">
-          <div class="h">第2章 スペーシングの基礎知識を学ぶ</div>
-          <ul class="list">
-            <li><span>2-1</span>スペーシングの始めの一歩</li>
-            <li><span>2-2</span>文字の視覚的な中心を探す</li>
-            <li><span>2-3</span>文字の視覚的な端を探す</li>
-            <li><span>2-4</span>文字のパーソナルスペース</li>
-            <li><span>2-5</span>読み手の感覚差を知る</li>
-            <li><span>2-6</span>3文字スペーシング方法のまとめ</li>
-            <li><span>2-7</span>4文字以上の単語への発展</li>
-            <li><span>2-8</span>客観視のコツ</li>
-            <li class="column"><span>Column 02</span>行頭揃えのコツをつかむ</li>
-          </ul>
-        </div>
-        <div class="item">
-          <div class="h">第3章 スペーシングの観察眼を鍛える</div>
-          <ul class="list">
-            <li><span>3-1</span>文字の形状を知る</li>
-            <li><span>3-2</span>文字列を「模様」として考える</li>
-            <li><span>3-3</span>同じ文字並びの扱い方</li>
-            <li><span>3-4</span>文字の上部と下部の違い</li>
-            <li><span>3-5</span>文字の量感・圧迫感を考慮する</li>
-            <li><span>3-6</span>ウェイトの変化による影響</li>
-            <li><span>3-7</span>文字サイズの違いによる影響</li>
-            <li><span>3-8</span>背景色の変化による影響</li>
-            <li><span>3-9</span>文字の周辺のスペースが与える影響</li>
-            <li><span>3-10</span>ゆったりさと窮屈さの特徴と違い</li>
-            <li class="column">
-              <span>Column 03</span>漢数字の「一」はどこまで詰める？
-            </li>
-          </ul>
-        </div>
-        <div class="item">
-          <div class="h">第4章 欧文のスペーシング</div>
-          <ul class="list">
-            <li><span>4-1</span>大文字で意識すべきこと</li>
-            <li><span>4-2</span>小文字で意識すべきこと</li>
-            <li><span>4-3</span>書体のスタイルとスペースの関係</li>
-            <li><span>4-4</span>スクリプト体のスペーシング</li>
-            <li><span>4-5</span>いろいろな合字</li>
-            <li class="column">
-              <span>Column 04</span>ピリオドと句点のスペーシング
-            </li>
-          </ul>
-        </div>
-        <div class="item">
-          <div class="h">第5章 和文のスペーシング</div>
-          <ul class="list">
-            <li><span>5-1</span>ひらがな活字の特徴</li>
-            <li><span>5-2</span>縦組みと横組みのひらがな</li>
-            <li><span>5-3</span>和文を読むときの感覚</li>
-            <li><span>5-4</span>和文特有の文字の高さ</li>
-            <li><span>5-5</span>和文独自の黒みのムラ</li>
-            <li><span>5-6</span>難しい和文横組みのスペーシング</li>
-            <li><span>5-7</span>和文がスカスカする原因</li>
-            <li><span>5-8</span>横組みを配慮したフォント</li>
-            <li><span>5-9</span>小書き文字のスペーシング</li>
-            <li><span>5-10</span>センテンスのスペーシング</li>
-            <li><span>5-11</span>縦組みのスペーシング</li>
-            <li class="column"><span>Column 05</span>括弧のスペーシング</li>
-          </ul>
-        </div>
-        <div class="item">
-          <div class="h">第6章 和欧混植のスペーシング</div>
-          <ul class="list">
-            <li><span>6-1</span>和欧混植とは</li>
-            <li><span>6-2</span>最適な文字サイズとベースライン</li>
-            <li><span>6-3</span>既存フォントの観察</li>
-            <li><span>6-4</span>ワードスペースの影響</li>
-            <li><span>6-5</span>トラッキング時の注意点</li>
-            <li><span>6-6</span>文字の比率調整による効果</li>
-            <li class="column">
-              <span>Column 06</span>従属欧文（専用欧文）のはなし
-            </li>
-          </ul>
-        </div>
-        <div class="item">
-          <div class="h">第7章 実例から見るスペーシング</div>
-          <ul class="list">
-            <li><span>7-1</span>COACHのロゴタイプ</li>
-            <li><span>7-2</span>BVLGARIのロゴタイプ</li>
-            <li><span>7-3</span>HIBIKIのロゴタイプ</li>
-            <li><span>7-4</span>MEVIUSのロゴタイプ</li>
-            <li><span>7-5</span>TORAYAのロゴタイプ</li>
-            <li><span>7-6</span>CHITAのロゴタイプ</li>
-            <li><span>7-7</span>キユーピーマヨネーズのロゴタイプ</li>
-            <li><span>7-8</span>明治おいしい牛乳のロゴタイプ</li>
-            <li class="column">
-              <span>Column 07</span>世の中のロゴタイプを考察しよう！
-            </li>
-          </ul>
-        </div>
-        <div class="item">
-          <div class="h">第8章 スペーシングの練習問題集</div>
-          <ul class="list">
-            <li><span>8-1</span>図形のスペーシングに挑戦</li>
-            <li><span>8-2</span>欧文のスペーシングに挑戦</li>
-            <li><span>8-3</span>和文のスペーシングに挑戦</li>
-            <li><span>8-4</span>和欧混植のスペーシングに挑戦</li>
-            <li class="column"><span>Column 08</span>便利なことはこわいこと</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="l-author" id="author">
-      <div class="inner">
-        <div class="title">
-          <h2 class="ja">著者について</h2>
-          <p class="en">About the author</p>
-        </div>
-        <div class="author">
-          <div class="name">今市達也<span>（いまいち・たつや）</span></div>
-          <div class="description">
-            グラフィックデザイナー/タイプデザイナー
-            東京造形大学造形学部デザイン学科グラフィックデザイン専攻領域卒業。新卒で株式会社DONGURIに入社。タイポグラフィを軸としたCIやグラフィックデザインを制作。2020年にフォント開発事業『katakata』を開始。ブランディングに向けたフォント開発を行う。主な受賞歴:日本タイポグラフィ年鑑入選など。<br />Twitter:
-            <a
-              href="https://twitter.com/ima_collection"
-              target="_blank"
-              rel="noopener"
-              >@ima_collection</a
-            >
-          </div>
-        </div>
-        <div class="publisher">
-          <div class="name">出版社情報</div>
-          <div class="description">
-            <a href="http://www.bnn.co.jp/" target="_blank" rel="noopener"
-              >http://www.bnn.co.jp/</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="l-author" id="author">
-      <div class="inner">
-        <div class="title">
-          <h2 class="ja">著者について</h2>
-          <p class="en">About the author</p>
-        </div>
-        <div class="author">
-          <div class="name">今市達也<span>（いまいち・たつや）</span></div>
-          <div class="description">
-            グラフィックデザイナー/タイプデザイナー
-            東京造形大学造形学部デザイン学科グラフィックデザイン専攻領域卒業。新卒で株式会社DONGURIに入社。タイポグラフィを軸としたCIやグラフィックデザインを制作。2020年にフォント開発事業『katakata』を開始。ブランディングに向けたフォント開発を行う。主な受賞歴:日本タイポグラフィ年鑑入選など。<br />Twitter:
-            <a
-              href="https://twitter.com/ima_collection"
-              target="_blank"
-              rel="noopener"
-              >@ima_collection</a
-            >
-          </div>
-        </div>
-        <div class="publisher">
-          <div class="name">出版社情報</div>
-          <div class="description">
-            <a href="http://www.bnn.co.jp/" target="_blank" rel="noopener"
-              >http://www.bnn.co.jp/</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="l-footer">
-      <div class="inner">
-        <div class="copyright">
-          <a href="http://www.bnn.co.jp/" target="_blank" rel="noopener"
-            ><svg
-              width="39"
-              height="21"
-              viewBox="0 0 39 21"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g clip-path="url(#clip0)">
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M21.2506 7.96215V4.59486C21.2506 4.06405 20.9264 3.88159 20.5212 3.74888V0.0830078H24.995V16.6541H21.2993L17.1821 8.85789V16.6707H13.1945V0.165946H17.2793L21.2506 7.96215Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M35.2556 7.87915V4.52844C35.2556 3.99763 34.9314 3.81517 34.5262 3.68246V0H39V16.5711H35.3204L31.187 8.75829V16.5711H27.1995V0.0829384H31.2843L35.2556 7.87915Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M3.82544 18.1636H4.71696C4.71696 18.1636 4.71696 19.192 4.71696 19.5072C4.71696 19.6565 4.86285 19.7228 4.9601 19.7228C5.1222 19.7228 5.28429 19.6067 5.28429 19.4906C5.28429 19.2252 5.28429 18.1636 5.28429 18.1636H6.09477V20.3366H5.28429V20.1209C5.07357 20.2702 4.9601 20.3366 4.47382 20.3366C4.11721 20.3366 3.82544 19.9385 3.82544 19.756C3.82544 19.192 3.82544 18.1636 3.82544 18.1636Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M9.53116 17.4009H10.4389L11.3142 18.8108V17.4009H12.2219L12.2057 20.3203H11.3304L10.3416 18.8274V20.3203H9.53116V17.4009Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M14.8965 18.2466H15.6422L15.9663 19.2584L16.2743 18.23L17.0037 18.2466L17.3441 19.2418L17.6683 18.2466H18.495L17.8304 20.32H16.9551L16.6633 19.3414L16.2905 20.32H15.4314L14.8965 18.2466Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M20.0349 18.91C20.0349 18.7275 19.7755 18.6611 19.6297 18.6611C19.5324 18.6611 19.4514 18.7109 19.4514 18.827C19.4514 19.0758 19.9538 19.0924 20.1159 19.109C20.2618 19.1422 20.6833 19.3578 20.6833 19.6896C20.6833 20.1872 20.0835 20.4194 19.6459 20.4194C19.0623 20.4194 18.576 20.2204 18.576 19.673H19.2244C19.2244 19.7891 19.3865 19.9218 19.5162 19.9218C19.6783 19.9218 19.808 19.8886 19.808 19.7559C19.7918 19.4242 18.9489 19.6398 18.7057 19.1422C18.5761 18.8602 18.6733 18.4953 18.9164 18.3792C19.6783 17.9479 20.6184 18.2962 20.6184 18.9266L20.0349 18.91Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M21.4127 17.5H22.3204L23.1958 18.8934L23.212 17.4834H24.1035V20.4028H23.212L22.2232 18.9099V20.4028H21.4127V17.5Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M28.5125 18.396H29.2419L29.5823 19.4078L29.8903 18.3794L30.6197 18.396L30.9601 19.3912L31.2843 18.396H32.111L31.4464 20.4694H30.5711L30.2631 19.4742L29.9065 20.4694H29.0474L28.5125 18.396Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M27.1022 18.4125V17.666H27.8317V18.4125H28.2369V18.8272H27.8317C27.8317 18.8272 27.8317 19.5902 27.8317 19.7892C27.8317 20.0546 28.01 20.1044 28.2369 20.0049V20.4196C28.091 20.4859 27.8803 20.5025 27.7344 20.5025C27.2319 20.5025 27.1022 20.2869 27.1022 19.839C27.1022 19.4243 27.1022 18.8437 27.1022 18.8437H26.7781V18.429H27.1022V18.4125Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M36.3903 18.3296V18.9931C35.8554 18.9931 35.5798 19.1756 35.5798 19.3912C35.5798 19.8391 35.5798 20.486 35.5798 20.486H34.8504V18.4125H35.5798V18.6613C35.6446 18.4789 35.8878 18.3296 36.3903 18.3296Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M36.7145 17.5H37.5249V18.91L38.1085 18.3294H38.8379L38.1895 19.1588L39 20.4858H38.1085L37.5249 19.5735V20.4858H36.7145V17.5Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M10.5848 7.92856C11.0062 7.31482 11.5736 6.15368 11.5736 4.82667C11.5736 1.57548 9.19077 0.182115 7.39152 0.182115C7.05112 0.165527 0 0.165527 0 0.165527V3.40012C0.405237 3.53283 0.745636 3.71529 0.745636 4.2461V16.3883C0.745636 16.3883 7.8616 16.4049 8.07232 16.4049C9.53117 16.4049 12.0599 15.2603 12.0599 11.7271C12.0599 10.1015 11.2818 8.60866 10.5848 7.92856ZM5.05736 3.8314C5.05736 3.8314 6.09476 3.8314 6.19202 3.8314C6.8404 3.8314 7.42394 4.29586 7.42394 5.09207C7.42394 5.9878 6.93766 6.50202 6.19202 6.50202C5.99751 6.50202 5.05736 6.50202 5.05736 6.50202V3.8314ZM6.51621 12.9049C6.30549 12.9049 4.9601 12.9049 4.9601 12.9049V10.1513C4.9601 10.1513 6.30549 10.1513 6.41895 10.1513C7.45636 10.1513 7.89401 10.6158 7.89401 11.412C7.89401 12.3077 7.40773 12.9049 6.51621 12.9049Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M3.17706 18.661C3.37157 18.5283 3.4202 18.3458 3.4202 18.1136C3.4202 17.5662 3.11222 17.3174 2.399 17.3174C2.35037 17.3174 0.826683 17.3174 0.826683 17.3174V20.2368C0.826683 20.2368 2.65835 20.2368 2.70698 20.2368C3.2581 20.2368 3.5985 20.0046 3.5985 19.3908C3.5985 19.1254 3.4202 18.8103 3.17706 18.661ZM1.70199 17.9975C1.70199 17.9975 2.30175 17.9975 2.31796 17.9975C2.41521 17.9975 2.52868 18.0804 2.52868 18.2131C2.52868 18.3624 2.44763 18.4288 2.31796 18.4288C2.28554 18.4288 1.70199 18.4288 1.70199 18.4288V17.9975ZM2.31796 19.5733C2.28554 19.5733 1.7182 19.5733 1.7182 19.5733V18.9927C1.7182 18.9927 2.26933 18.9927 2.30175 18.9927C2.65835 18.9927 2.70698 19.1586 2.70698 19.2913C2.69077 19.4406 2.65835 19.5733 2.31796 19.5733Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M8.7207 18.1635H7.91023V18.2796C7.79676 18.1469 7.55362 18.0806 7.24564 18.0806C6.8404 18.0806 6.45137 18.3626 6.43517 19.2085C6.43517 19.9716 7.05113 20.1706 7.3429 20.1706C7.53741 20.1706 7.79676 20.1043 7.91023 20.0047C7.91023 20.0047 7.89402 20.1706 7.89402 20.3531C7.89402 20.436 7.74813 20.519 7.58604 20.519C7.48878 20.519 7.40773 20.4692 7.40773 20.3531H6.51621C6.51621 20.718 7.0025 21 7.61846 21.0166C8.15337 21.0332 8.7207 20.6682 8.7207 20.3531C8.7207 19.9716 8.7207 18.1635 8.7207 18.1635ZM7.56983 19.59C7.37531 19.59 7.22943 19.391 7.22943 19.1256C7.22943 18.8602 7.37531 18.6611 7.56983 18.6611C7.76434 18.6611 7.91023 18.8602 7.91023 19.1256C7.91023 19.3744 7.76434 19.59 7.56983 19.59Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M13.6646 19.8223C13.4214 19.8223 13.2756 19.7394 13.2756 19.4076H14.8155C14.8155 18.8271 14.6534 18.1636 13.6484 18.1636C12.5786 18.1636 12.4651 18.8603 12.4651 19.2418C12.4651 19.9219 12.9676 20.3366 13.6484 20.32C14.086 20.32 14.7506 20.1707 14.7506 19.6565H14.0212C14.005 19.7228 13.8915 19.8223 13.6646 19.8223ZM13.6484 18.6612C13.8591 18.6612 13.9239 18.8105 13.9239 18.993H13.3566C13.3566 18.8105 13.4214 18.6612 13.6484 18.6612Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M25.4813 19.9215C25.2382 19.9215 25.0923 19.8219 25.0923 19.5068H26.6322C26.6322 18.9262 26.4701 18.2627 25.4651 18.2627C24.3953 18.2627 24.2818 18.9428 24.2818 19.3409C24.2818 20.0376 24.7843 20.4357 25.4651 20.4357C25.9027 20.4357 26.5673 20.2864 26.5673 19.7722H25.8379C25.8379 19.8219 25.7082 19.9215 25.4813 19.9215ZM25.4651 18.7603C25.6758 18.7603 25.7407 18.9096 25.7407 19.0921H25.1733C25.1733 18.9096 25.2544 18.7603 25.4651 18.7603Z"
-                  fill="black"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M33.3267 18.313C32.6783 18.313 32.1434 18.8272 32.1434 19.4409C32.1434 20.0713 32.6783 20.5689 33.3267 20.5689C33.9751 20.5689 34.51 20.0547 34.51 19.4409C34.51 18.8272 33.9913 18.313 33.3267 18.313ZM33.3267 19.9883C33.0511 19.9883 32.9701 19.7395 32.9701 19.4409C32.9701 19.1424 33.0511 18.8936 33.3591 18.8936C33.6347 18.8936 33.7157 19.1424 33.7157 19.4409C33.6995 19.7395 33.6023 19.9883 33.3267 19.9883Z"
-                  fill="black"
-                ></path>
-              </g>
-              <defs>
-                <clipPath id="clip0">
-                  <rect width="39" height="21" fill="white"></rect>
-                </clipPath>
-              </defs>
-            </svg> </a
-          ><span>© 2021 Tatsuya Imaichi</span>
-        </div>
-        <dl class="share">
-          <dt>SNSでシェアする</dt>
-          <dd>
-            <a
-              href="https://twitter.com/intent/tweet?text=%E3%83%AC%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0+%E3%82%BF%E3%82%A4%E3%83%9D%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E6%96%87%E5%AD%97%E9%96%93%E8%AA%BF%E6%95%B4%E3%81%AE%E8%80%83%E3%81%88%E6%96%B9+https%3A%2F%2Fletter-spacing.mimiguri.co.jp%2F"
-              target="_blank"
-              rel="noopener"
-              ><svg
-                width="20"
-                height="16"
-                viewBox="0 0 20 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M20 1.89387C19.2641 2.21504 18.4732 2.43251 17.6437 2.52973C18.4908 2.02997 19.1412 1.23858 19.4477 0.295243C18.6547 0.75827 17.7768 1.09456 16.8419 1.2753C16.0935 0.490391 15.0269 0 13.8469 0C11.5805 0 9.74359 1.80818 9.74359 4.03907C9.74359 4.35591 9.78017 4.66412 9.84966 4.95936C6.43988 4.79085 3.41636 3.18286 1.39215 0.739547C1.03881 1.33579 0.8369 2.02997 0.8369 2.77024C0.8369 4.17157 1.56114 5.40798 2.66213 6.13241C1.98983 6.11153 1.35704 5.93006 0.803248 5.6269C0.803248 5.64346 0.803248 5.66074 0.803248 5.67802C0.803248 7.63527 2.21734 9.26774 4.09452 9.6386C3.74995 9.73077 3.38783 9.78046 3.01328 9.78046C2.74919 9.78046 2.49168 9.75525 2.24149 9.70773C2.76382 11.3121 4.27887 12.4801 6.07484 12.5125C4.67025 13.5956 2.90135 14.2415 0.978821 14.2415C0.647427 14.2415 0.321153 14.2221 0 14.1853C1.81572 15.331 3.97235 16 6.28992 16C13.8374 16 17.9641 9.84527 17.9641 4.50785C17.9641 4.33287 17.9604 4.1586 17.9524 3.98506C18.7542 3.41546 19.4499 2.70399 20 1.89387Z"
-                  fill="black"
-                ></path>
-              </svg>
-            </a>
-          </dd>
-          <dd>
-            <a
-              href="https://www.facebook.com/sharer/sharer.php?u=https://letter-spacing.mimiguri.co.jp/"
-              target="_blank"
-              rel="noopener"
-              ><svg
-                width="18"
-                height="18"
-                viewBox="0 0 18 18"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M18 9.055C18 4.05406 13.9706 0 9 0C4.02943 0 0 4.05406 0 9.055C0 13.5745 3.29115 17.3207 7.59375 18V11.6725H5.30859V9.055H7.59375V7.06007C7.59375 4.79066 8.93742 3.53711 10.9932 3.53711C11.9779 3.53711 13.0078 3.71397 13.0078 3.71397V5.94235H11.873C10.755 5.94235 10.4062 6.64039 10.4062 7.35648V9.055H12.9023L12.5033 11.6725H10.4062V18C14.7088 17.3207 18 13.5745 18 9.055Z"
-                  fill="black"
-                ></path>
-              </svg>
-            </a>
-          </dd>
-          <dd>
-            <a
-              href="https://social-plugins.line.me/lineit/share?url=https://letter-spacing.mimiguri.co.jp/"
-              target="_blank"
-              rel="noopener"
-              ><svg
-                width="18"
-                height="18"
-                viewBox="0 0 18 18"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M13.9444 0H4.05563C1.81688 0 0 1.81687 0 4.05562V13.9387C0 16.1831 1.81688 18 4.05563 18H13.9388C16.1775 18 17.9944 16.1831 17.9944 13.9444V4.05562C18 1.81687 16.1831 0 13.9444 0ZM13.7138 11.1487C12.4538 12.6 9.64125 14.3606 9 14.6306C8.35875 14.9006 8.45438 14.4562 8.4825 14.3044C8.49938 14.2144 8.56688 13.7925 8.56688 13.7925C8.58938 13.6406 8.60625 13.3987 8.55 13.2525C8.4825 13.0837 8.21813 12.9994 8.02125 12.9544C5.13563 12.5719 3.00375 10.5581 3.00375 8.15062C3.00375 5.4675 5.69813 3.27937 9.00563 3.27937C12.3131 3.27937 15.0075 5.46187 15.0075 8.15062C15.0019 9.225 14.58 10.1925 13.7138 11.1487Z"
-                  fill="black"
-                ></path>
-                <path
-                  d="M13.0051 9.70293H11.3232C11.2613 9.70293 11.2107 9.6523 11.2107 9.59043V6.9748C11.2107 6.91293 11.2613 6.8623 11.3232 6.8623H13.0051C13.0669 6.8623 13.1176 6.91293 13.1176 6.9748V7.40231C13.1176 7.46418 13.0669 7.51481 13.0051 7.51481H11.8576V7.95918H13.0051C13.0669 7.95918 13.1176 8.0098 13.1176 8.07168V8.49918C13.1176 8.56106 13.0669 8.61168 13.0051 8.61168H11.8576V9.05605H13.0051C13.0669 9.05605 13.1176 9.10668 13.1176 9.16855V9.59606C13.1176 9.65231 13.0669 9.70293 13.0051 9.70293Z"
-                  fill="black"
-                ></path>
-                <path
-                  d="M6.76692 9.70318C6.82879 9.70318 6.87942 9.65255 6.87942 9.59068V9.16318C6.87942 9.1013 6.82879 9.05068 6.76692 9.05068H5.61942V6.96943C5.61942 6.90756 5.56879 6.85693 5.50692 6.85693H5.07942C5.01754 6.85693 4.96692 6.90756 4.96692 6.96943V9.58505C4.96692 9.64693 5.01754 9.69755 5.07942 9.69755H6.76692V9.70318Z"
-                  fill="black"
-                ></path>
-                <path
-                  d="M7.77943 6.85693H7.35194C7.29007 6.85693 7.23944 6.90756 7.23944 6.96943V9.59068C7.23944 9.65255 7.29007 9.70318 7.35194 9.70318H7.77943C7.84131 9.70318 7.89193 9.65255 7.89193 9.59068V6.96943C7.89756 6.90756 7.84693 6.85693 7.77943 6.85693Z"
-                  fill="black"
-                ></path>
-                <path
-                  d="M10.6763 6.85693H10.2488C10.1869 6.85693 10.1363 6.90756 10.1363 6.96943V8.52756L8.93818 6.90756C8.93818 6.90193 8.93255 6.90193 8.92693 6.89631L8.9213 6.89068L8.91568 6.88506C8.91568 6.88506 8.91568 6.88506 8.91005 6.88506L8.90443 6.87943C8.90443 6.87943 8.90443 6.87943 8.8988 6.87943C8.8988 6.87943 8.89318 6.87943 8.89318 6.87381C8.89318 6.87381 8.89318 6.87381 8.88755 6.87381C8.88755 6.87381 8.88193 6.87381 8.88193 6.86818C8.88193 6.86818 8.88193 6.86818 8.8763 6.86818H8.87068C8.87068 6.86818 8.87068 6.86818 8.86505 6.86818H8.85943H8.8538H8.84818H8.84255C8.84255 6.86818 8.84255 6.86818 8.83693 6.86818H8.41505C8.35318 6.86818 8.30255 6.91881 8.30255 6.98068V9.60194C8.30255 9.66382 8.35318 9.71444 8.41505 9.71444H8.84255C8.90443 9.71444 8.95505 9.66382 8.95505 9.60194V8.04944L10.1532 9.66944C10.1588 9.68069 10.1701 9.69194 10.1813 9.69757L10.1869 9.70319C10.1869 9.70319 10.1869 9.70319 10.1926 9.70319H10.1982H10.2038C10.2038 9.70319 10.2038 9.70319 10.2094 9.70319H10.2151C10.2263 9.70319 10.2319 9.70882 10.2432 9.70882H10.6651C10.7269 9.70882 10.7776 9.65819 10.7776 9.59632V6.97506C10.7944 6.90756 10.7438 6.85693 10.6763 6.85693Z"
-                  fill="black"
-                ></path>
-              </svg>
-            </a>
-          </dd>
-        </dl>
-        <div class="contact">
-          <dt>お問い合わせはこちら</dt>
-          <dd>
-            <a
-              href="http://www.bnn.co.jp/contact-book/"
-              target="_blank"
-              rel="noopener"
-              >http://www.bnn.co.jp/contact-book/</a
-            >
-          </dd>
-        </div>
-      </div>
-      <div class="img">
-        <img src="sec/assets/img_footer.png" alt="" width="149" height="167" />
       </div>
     </div>
   </body>
