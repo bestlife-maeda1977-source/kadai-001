@@ -8,8 +8,10 @@ p {
 }
 
 .all {
+  position: relative;
   max-width: 1920px;
   margin-inline: auto;
+  overflow: hidden;
 }
 
 .header-global {
@@ -115,28 +117,27 @@ p {
 }
 
 .nav-global {
-  position: absolute;
+  position: fixed;
+  z-index: 100;
   top: 56px;
-  right: 56px;
-  display: inline-flex;
+  right: 58px;
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  width: 120px;
 
   ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: inline-flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+    display: flex;
+    justify-content: flex-end;
 
     &.buy {
       display: inline-flex;
       flex-direction: column;
       flex-wrap: wrap;
-      justify-content: flex-start;
+      justify-content: flex-end;
       align-items: flex-start;
       padding-bottom: 68px;
 
@@ -188,14 +189,6 @@ p {
       justify-content: flex-end;
       align-items: flex-start;
 
-      li {
-        margin-bottom: 20px;
-
-        &:last-child {
-          margin-bottom: 0;
-        }
-      }
-
       a {
         display: block;
         text-align: right;
@@ -224,10 +217,26 @@ p {
 
 .container-hero {
   gutters: 0;
+
   img {
     display: block;
     width: 100%;
     height: auto;
+    filter: blur(10px);
+    opacity: 0;
+    animation: blurFadeIn 1.5s ease forwards;
+    animation-delay: 1s;
+  }
+
+  @keyframes blurFadeIn {
+    0% {
+      filter: blur(10px);
+      opacity: 0;
+    }
+    100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
   }
 }
 
@@ -242,21 +251,27 @@ p {
 }
 
 /* 各ドットの基本スタイル */
-.carousel-indicators button {
-  width: 12px !important;
-  height: 12px !important;
-  border-radius: 50%;
-  background-color: #999;
+.carousel-indicators [data-bs-target] {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #333;
   border: none;
   padding: 0;
-  opacity: 0.75;
-  transition: opacity 0.3s;
+  transition: 0.3s;
 }
 
 /* アクティブ時のスタイル */
 .carousel-indicators button.active {
   background-color: #c00;
-  opacity: 1;
+}
+
+.carousel-item img {
+  display: block;
+  margin-inline: auto;
+  width: 100%;
+  max-width: 480px;
+  height: auto;
 }
 
 #pills-arrange {
@@ -779,10 +794,11 @@ p {
           font-size: 14px;
           color: #fff;
           background-color: #000;
+          border-radius: 4px;
           transition: 0.4s;
 
           &:hover {
-            color: #000;
+            background-color: #333;
           }
         }
       }
@@ -791,7 +807,6 @@ p {
 }
 
 .container-footer {
-
   .container {
     position: relative;
 
@@ -802,4 +817,34 @@ p {
       display: inline-block;
     }
   }
+}
+
+.navbar {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.list-group {
+  width: 100%;
+
+  a {
+    border: none;
+
+    &:hover {
+      background: none;
+    }
+  }
+}
+
+/* ローディング画面の基本スタイル */
+#loader {
+  transition: opacity 0.5s ease; /* 0.5秒かけてフェードアウト */
+  opacity: 1;
+}
+
+/* 非表示にするためのクラス */
+#loader.fade-out {
+  opacity: 0;
+  pointer-events: none; /* フェードアウト中にクリックを透過させる */
 }
