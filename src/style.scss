@@ -848,3 +848,32 @@ p {
   opacity: 0;
   pointer-events: none; /* フェードアウト中にクリックを透過させる */
 }
+
+.text-contact {
+  color: #000;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.container-footer {
+  padding-top: 30px;
+
+  .share {
+    dl {
+      display: flex;
+      flex-wrap: wrap;
+
+      dt {
+        width: 100%;
+      }
+
+      dd {
+        margin-right: 10px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
